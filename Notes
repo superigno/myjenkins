@@ -1,0 +1,28 @@
+docker logs -f jenkinsci
+
+docker container stop/start/rm
+
+#Remove image
+docker image rmi <id>
+
+
+docker run -ti -v test:/mnt ubuntu bash
+
+
+------------------------------
+
+If you remove the container, all saved details/files inside the container is also lost, to prevent this, sync/mount the directory/volume inside the container to your local directory/volume using -v option. ie:
+
+docker run -p 8080:8080  -v `pwd`/downloads:/var/jenkins_home/downloads --rm --name myjenkins myjenkins:latest
+
+where:
+pwd`/downloads - your local directory, where `pwd` = present working directory
+/var/jenkins_home/downloads - the directory of the container, in this case jenkins
+
+other notes:
+--rm - removes/deletes container immediately when you stop it
+
+
+
+
+
