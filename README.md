@@ -1,4 +1,4 @@
-1. Run the ff to download jdk and maven:
+1. Run the ff inside downloads folder to download jdk and maven:
 - curl -O http://mirror.cnop.net/jdk/linux/jdk-8u131-linux-x64.tar.gz
 - curl -O http://mirror.cnop.net/jdk/linux/jdk-7u76-linux-x64.tar.gz
 - curl -O https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.5.0/apache-maven-3.5.0-bin.tar.gz
