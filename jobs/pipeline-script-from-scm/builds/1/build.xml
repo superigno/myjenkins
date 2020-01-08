@@ -1,0 +1,298 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.36">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.15">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.5.0">
+      <stagesUUID>6a6c8974-de70-4d6a-8f1b-422d5d94a0fa</stagesUUID>
+      <stagesList>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.5.0">
+          <stages>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <post>
+                <conditions>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                    <condition>always</condition>
+                    <branch>
+                      <name>default</name>
+                      <steps>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <name>junit</name>
+                          <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>testResults</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                  <value class="string">**/target/*-reports/TEST-*.xml</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              </entry>
+                            </arguments>
+                          </args>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <name>step</name>
+                          <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>delegate</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                  <value class="string">[$class: &apos;CoberturaPublisher&apos;, coberturaReportFile: &apos;target/site/cobertura/coverage.xml&apos;]</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                              </entry>
+                            </arguments>
+                          </args>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      </steps>
+                    </branch>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                </conditions>
+              </post>
+              <name>Install</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>sh</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>script</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">mvn -U clean test cobertura:cobertura -Dcobertura.report.format=xml</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+          </stages>
+          <uuid>6a6c8974-de70-4d6a-8f1b-422d5d94a0fa</uuid>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
+      </stagesList>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.0.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.0.0">
+              <sha1>e2ab9b49e86ce500f09a6f2436cd2ef89a5a6457</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/superigno/berlin-clock</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.0.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/jobs/pipeline-script-from-scm/workspace</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.9">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/superigno/berlin-clock</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1.28">
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>40</totalCount>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+    <hudson.plugins.cobertura.CoberturaCoverageRecordAction plugin="cobertura@1.15">
+      <lastUnhealthyTarget>
+        <targets class="enum-map" enum-type="hudson.plugins.cobertura.targets.CoverageMetric"/>
+      </lastUnhealthyTarget>
+      <lastFailingTarget>
+        <targets class="enum-map" enum-type="hudson.plugins.cobertura.targets.CoverageMetric"/>
+      </lastFailingTarget>
+      <lastUpdatedUnhealthyTarget>
+        <targets class="enum-map" enum-type="hudson.plugins.cobertura.targets.CoverageMetric"/>
+      </lastUpdatedUnhealthyTarget>
+      <lastUpdatedFailingTarget>
+        <targets class="enum-map" enum-type="hudson.plugins.cobertura.targets.CoverageMetric"/>
+      </lastUpdatedFailingTarget>
+      <autoUpdateHealth>true</autoUpdateHealth>
+      <autoUpdateStability>true</autoUpdateStability>
+    </hudson.plugins.cobertura.CoberturaCoverageRecordAction>
+    <hudson.plugins.cobertura.CoberturaBuildAction plugin="cobertura@1.15">
+      <healthyTarget>
+        <targets class="enum-map" enum-type="hudson.plugins.cobertura.targets.CoverageMetric"/>
+      </healthyTarget>
+      <unhealthyTarget reference="../../hudson.plugins.cobertura.CoberturaCoverageRecordAction/lastUpdatedUnhealthyTarget"/>
+      <failUnhealthy>true</failUnhealthy>
+      <failUnstable>true</failUnstable>
+      <autoUpdateHealth>true</autoUpdateHealth>
+      <autoUpdateStability>true</autoUpdateStability>
+      <zoomCoverageChart>true</zoomCoverageChart>
+      <maxNumberOfBuilds>42</maxNumberOfBuilds>
+      <result class="enum-map" enum-type="hudson.plugins.cobertura.targets.CoverageMetric">
+        <entry>
+          <hudson.plugins.cobertura.targets.CoverageMetric>PACKAGES</hudson.plugins.cobertura.targets.CoverageMetric>
+          <hudson.plugins.cobertura.Ratio>
+            <numerator>8.0</numerator>
+            <denominator>8.0</denominator>
+          </hudson.plugins.cobertura.Ratio>
+        </entry>
+        <entry>
+          <hudson.plugins.cobertura.targets.CoverageMetric>FILES</hudson.plugins.cobertura.targets.CoverageMetric>
+          <hudson.plugins.cobertura.Ratio>
+            <numerator>15.0</numerator>
+            <denominator>15.0</denominator>
+          </hudson.plugins.cobertura.Ratio>
+        </entry>
+        <entry>
+          <hudson.plugins.cobertura.targets.CoverageMetric>CLASSES</hudson.plugins.cobertura.targets.CoverageMetric>
+          <hudson.plugins.cobertura.Ratio reference="../../entry[2]/hudson.plugins.cobertura.Ratio"/>
+        </entry>
+        <entry>
+          <hudson.plugins.cobertura.targets.CoverageMetric>METHOD</hudson.plugins.cobertura.targets.CoverageMetric>
+          <hudson.plugins.cobertura.Ratio>
+            <numerator>38.0</numerator>
+            <denominator>43.0</denominator>
+          </hudson.plugins.cobertura.Ratio>
+        </entry>
+        <entry>
+          <hudson.plugins.cobertura.targets.CoverageMetric>LINE</hudson.plugins.cobertura.targets.CoverageMetric>
+          <hudson.plugins.cobertura.Ratio>
+            <numerator>95.0</numerator>
+            <denominator>102.0</denominator>
+          </hudson.plugins.cobertura.Ratio>
+        </entry>
+        <entry>
+          <hudson.plugins.cobertura.targets.CoverageMetric>CONDITIONAL</hudson.plugins.cobertura.targets.CoverageMetric>
+          <hudson.plugins.cobertura.Ratio>
+            <numerator>17.0</numerator>
+            <denominator>20.0</denominator>
+          </hudson.plugins.cobertura.Ratio>
+        </entry>
+      </result>
+      <onlyStable>true</onlyStable>
+    </hudson.plugins.cobertura.CoberturaBuildAction>
+  </actions>
+  <queueId>3</queueId>
+  <timestamp>1578446027636</timestamp>
+  <startTime>1578446027645</startTime>
+  <result>SUCCESS</result>
+  <duration>173503</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>
+pipeline {
+    agent any
+    tools {
+        jdk &apos;jdk8&apos;
+        maven &apos;maven3&apos;
+    }
+    stages {
+        stage(&apos;Install&apos;) {
+            steps {
+                sh &quot;mvn -U clean test cobertura:cobertura -Dcobertura.report.format=xml&quot;
+            }
+            post {
+                always {
+                    junit &apos;**/target/*-reports/TEST-*.xml&apos;
+                    step([$class: &apos;CoberturaPublisher&apos;, coberturaReportFile: &apos;target/site/cobertura/coverage.xml&apos;])
+                }
+            }
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>758698316</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>1156356032</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>6851689761</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>269292667</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>4074374842</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>43</iota>
+    <head>1:43</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.0.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/superigno/berlin-clock</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="list"/>
+        <extensions/>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/jobs/pipeline-script-from-scm/workspace</workspace>
+      <changelogFile>/var/jenkins_home/jobs/pipeline-script-from-scm/builds/1/changelog5293829296538871438.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

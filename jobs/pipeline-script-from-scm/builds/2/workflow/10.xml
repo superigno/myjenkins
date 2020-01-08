@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.78">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.78">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/master</string>
+            <string>GIT_COMMIT=8f5de5d5db4247c6cc26599ca82d8bfb985692c1</string>
+            <string>GIT_PREVIOUS_COMMIT=e2ab9b49e86ce500f09a6f2436cd2ef89a5a6457</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=e2ab9b49e86ce500f09a6f2436cd2ef89a5a6457</string>
+            <string>GIT_URL=https://github.com/superigno/berlin-clock</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.38">
+      <startTime>1578450305829</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

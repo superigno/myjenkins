@@ -22,7 +22,11 @@ pwd`/downloads - your local directory, where `pwd` = present working directory
 other notes:
 --rm - removes/deletes container immediately when you stop it
 
+------------------------------
 
+If you want to view the shell of the container:
+
+docker exec -it <container name or id> ls
 
 
 
