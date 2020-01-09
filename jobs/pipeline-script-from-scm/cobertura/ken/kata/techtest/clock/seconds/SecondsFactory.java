@@ -100,7 +100,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='21'/>21</td>
-<td class="hits">113</td>
+<td class="hits">111</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(units)&nbsp;-&gt;&nbsp;abs((units&nbsp;%&nbsp;2)&nbsp;-&nbsp;1));</td>
 </tr>
 <tr class="noCover">

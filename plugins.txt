@@ -73,4 +73,5 @@ pam-auth
 ldap
 email-ext
 cobertura
+config-file-provider
 

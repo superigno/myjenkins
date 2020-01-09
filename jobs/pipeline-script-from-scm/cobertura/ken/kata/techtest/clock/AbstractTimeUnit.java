@@ -80,7 +80,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='17'/>17</td>
-<td class="hits">333</td>
+<td class="hits">334</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;precondition.validate(units);</td>
 </tr>
 <tr class="noCover">
@@ -90,12 +90,12 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='19'/>19</td>
-<td class="hits">661</td>
+<td class="hits">660</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;timeUnitParts.stream().</td>
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='20'/>20</td>
-<td class="hits">884</td>
+<td class="hits">882</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;map(timeUnitPart&nbsp;-&gt;&nbsp;timeUnitPart.display(units)).</td>
 </tr>
 <tr class="coverFull">

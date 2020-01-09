@@ -70,7 +70,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='15'/>15</td>
-<td class="hits">333</td>
+<td class="hits">334</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!unitsPredicate.test(units))&nbsp;{</td>
 </tr>
 <tr class="coverFull">

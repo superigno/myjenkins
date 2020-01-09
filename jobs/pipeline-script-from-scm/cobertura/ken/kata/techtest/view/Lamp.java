@@ -20,7 +20,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='5'/>5</td>
-<td class="hits">3158</td>
+<td class="hits">3148</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;Switch&nbsp;aSwitch&nbsp;=&nbsp;Switch.OFF;</td>
 </tr>
 <tr class="noCover">
@@ -30,17 +30,17 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='7'/>7</td>
-<td class="hits">3161</td>
+<td class="hits">3147</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;Lamp(Color&nbsp;color)&nbsp;{</td>
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='8'/>8</td>
-<td class="hits">3158</td>
+<td class="hits">3148</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.color&nbsp;=&nbsp;color;</td>
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='9'/>9</td>
-<td class="hits">3011</td>
+<td class="hits">3149</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;}</td>
 </tr>
 <tr class="noCover">
@@ -55,12 +55,12 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='12'/>12</td>
-<td class="hits">1086</td>
+<td class="hits">1057</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aSwitch&nbsp;=&nbsp;Switch.ON;</td>
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='13'/>13</td>
-<td class="hits">1086</td>
+<td class="hits">1057</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;}</td>
 </tr>
 <tr class="noCover">
@@ -80,7 +80,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='17'/>17</td>
-<td class="hits">2738</td>
+<td class="hits">2732</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;aSwitch&nbsp;==&nbsp;Switch.ON&nbsp;?</td>
 </tr>
 <tr class="noCover">
@@ -105,7 +105,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='22'/>22</td>
-<td class="hits">2747</td>
+<td class="hits">2724</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;new&nbsp;Lamp(this.color);</td>
 </tr>
 <tr class="noCover">

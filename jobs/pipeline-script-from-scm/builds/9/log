@@ -1,0 +1,1399 @@
+Started by user unknown or anonymous
+Replayed [8mha:////4Dan27BT/wC0Y/HSb9XMW7Jtb+WIjDNudlJR3jUMF2IxAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2CzIJUoI2pusXJRZkFJbppRfm5QHauvoU+AJRZUrrVAAAA[0m#8
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4NZO4CF9hcJRHUpcVy5zL85XL9Y9Ptfc38YXBmydni++AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PdDOThd83JC9E6/ba2QC4yZ0FsjuglJq2CPAwoEDUqPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4DZp4ZPBjhNqIY+kTvSYS9M/GpWXhLscLs8APC/kc+kOAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/jobs/pipeline-script-from-scm/workspace
+[8mha:////4DPlNcze7afFp1g5OaO69SGqKuS5lcw43u1/QQ3u4at3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LfCrC7sn0WsNqnFEKNAE3sNTMTY9/mQ3nuXqnQXRxXmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Ipnj9iHgRNvhzz2FAkeZxgBUaue2juTuEGTlRK2PtKqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4IOTXhOvdAjHgjsN4JOfvj8R4VGJUcvl0dSV8mSFd+1dAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/superigno/berlin-clock # timeout=10
+Fetching upstream changes from https://github.com/superigno/berlin-clock
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/superigno/berlin-clock +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision acc45423c26be4022904455105d7e6497d44f0ea (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f acc45423c26be4022904455105d7e6497d44f0ea # timeout=10
+Commit message: "commit"
+ > git rev-list --no-walk acc45423c26be4022904455105d7e6497d44f0ea # timeout=10
+[8mha:////4BGlz7X8I/uxi1ZWDAWtAd2WYOVlA605gKt2DAuoi2enAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4LKjn+bIKi0NTj71dCEaoJnm90up2PZkhElP6v2Nvg7ZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4LH3wd6PqrguYV4efwl14zCV4Ws0vvoAb0AQORN4UDSQAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4F09nftxLmNVfkAx+1kpRiQ3Y9b9fEQ+Bep911cd1n+FAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4NJQom1snC398iikahg69DnDsrw/bYEKPKYjAbVGki3kAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4L7ntevCH61rnks2qztTwl0+DmIl8JRhtc1/rR1Ywr3fAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4N9vq4aZzuaVsg0Raoku+WmO919+Q+4Gq7mpY3EQ6ShyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+Unpacking file:/var/jenkins_home/downloads/jdk-8u131-linux-x64.tar.gz to /var/jenkins_home/tools/hudson.model.JDK/jdk8 on Jenkins
+[8mha:////4Kr2qsPbbLe5wNFAt9nrtJ5YQTboVEkr7+jMgt5pUOHEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4AZWL8FRvNoj2ejemOHR+h3cIX5+mcORaQBbvAvQHkupAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] tool
+Unpacking file:/var/jenkins_home/downloads/apache-maven-3.5.0-bin.tar.gz to /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven3 on Jenkins
+[8mha:////4MJe4E6b8tuo7HP6TlvO3SsE84sUK9xnFTXXSh9N7C5lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHJ54PfvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4D4N8xNMmaQL1qIOWhx2x0Fzsrrz56oEbzQoRvEjLamoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFudLBjvgAAAA==[0m[Pipeline] }
+[8mha:////4FYVsuoj5DiA8HLQ7XC1Z02vRfmAiil9DU+5pcwXssXCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3Bl2X69++AAAA[0m[Pipeline] // stage
+[8mha:////4IPMMt6qdblYYdlF5Erg2yk0lNbZUlq6M7fvZI7wsGNeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUsiKmrlEWThCSENJG/5ckpZ04EVfjDgQqMeHBsi1Z7/mCKgY4UrCsM9g7jMqxwY82JzZR6C+eJtbRmSnCSN4wYSZB2rRLFZQMLCpKWHFYG1SeokObYMM7eZe1l2jrUwp5O3Aonb7BAwqeyUmG9C1zgO111JHwx/kLgHlIUDZNtv3u86ze+beK58IAAAA=[0m[Pipeline] withEnv
+[8mha:////4IaCgTiV7C6Z4b4R2wxlCW1I/qeEoOUyH+vz0IpUz8d3AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4Nk4cSX4sr75ft8BdM14KDTAmnKsdqJtsn+ZAPt6guWWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] stage
+[8mha:////4PZ4gojJ/EqyRy55UuAMV8ek+l14DfzRrPn3JWezq0M7AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (install and sonar parallel)
+[8mha:////4Jlijg9/NjcY60ATYdXFWf4xJu9ltPyOLAr4ZY47rN4ZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] tool
+[8mha:////4P/4TXFh/1H6D/7esLiBCSOBdQ3686HjK3rCUG6gyh12AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/E8fGG+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4G1BrW9QNf+JlkNN4Mk9IsXhL92XbhJBTFKIMrReA5IsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEyb1FKvgAAAA==[0m[Pipeline] tool
+[8mha:////4CjaSInTNJlHpb193CSB5+2P9pfmQVCHT2SSUXw1WgQuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFzXkpTvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4BVGTW9Z5ZX+W6G8xL4D2QjRzf1qSnuQNs3+YYVxoXc8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAClXiskwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4Bpw04uNsSaMu/naIrnTOZiZyD+t7ZViBXnHQWaCvBphAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4GWb//ISY/UCfv5dMMp9goV5BVCA41tCqAFYIvckZ6lQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] parallel
+[8mha:////4CMbe+lOGABgMtPBWDCj1niuwW2sMVamzItMPRAGvJ3ZAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+GVyAIcIAAAA=[0m[Pipeline] { (Branch: install)
+[8mha:////4HPh6DH9ohmAwjdv5PRu5MbfOiFkAiz83+MYxRZoljcfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycogUqSNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPvI/c6sIAAAA=[0m[Pipeline] { (Branch: sonar)
+[8mha:////4I4s5sFnOQSQNoZD2s84WWIoMdUqJ/jn7RlHLJWVnwYmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] sh
+[8mha:////4HrPK6OFao2CiJ1o6LlRmTLvchaF/UeTtK+TIU6QMG00AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fWFYUrL4AAAA=[0m[Pipeline] sh
++ mvn -U clean test cobertura:cobertura -Dcobertura.report.format=xml
++ mvn sonar:sonar -Dsonar.host.url=http://172.21.96.1:9004
+[INFO] Scanning for projects...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building berlin-clock 1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.7.0.1746:sonar (default-cli) @ berlin-clock ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+Progress (1): 1.4/20 kBProgress (2): 1.4/20 kB | 1.4/14 kBProgress (2): 2.7/20 kB | 1.4/14 kBProgress (2): 2.7/20 kB | 2.7/14 kBProgress (2): 4.1/20 kB | 2.7/14 kBProgress (2): 4.1/20 kB | 4.1/14 kBProgress (2): 5.5/20 kB | 4.1/14 kBProgress (2): 5.5/20 kB | 5.5/14 kBProgress (2): 6.9/20 kB | 5.5/14 kBProgress (2): 8.2/20 kB | 5.5/14 kBProgress (2): 9.6/20 kB | 5.5/14 kBProgress (2): 11/20 kB | 5.5/14 kB Progress (2): 12/20 kB | 5.5/14 kBProgress (2): 14/20 kB | 5.5/14 kBProgress (2): 15/20 kB | 5.5/14 kBProgress (2): 16/20 kB | 5.5/14 kBProgress (2): 18/20 kB | 5.5/14 kBProgress (2): 19/20 kB | 5.5/14 kBProgress (2): 19/20 kB | 6.9/14 kBProgress (2): 19/20 kB | 8.2/14 kBProgress (2): 19/20 kB | 9.6/14 kBProgress (2): 19/20 kB | 11/14 kB Progress (2): 20 kB | 11/14 kB   Progress (2): 20 kB | 12/14 kBProgress (2): 20 kB | 14 kB                              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 6.3 kB/s)
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 9.6 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/maven-metadata.xml
+[INFO] SonarQube version: 7.8.0
+Progress (1): 605 B                   Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/maven-metadata.xml (605 B at 1.9 kB/s)
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building berlin-clock 1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ berlin-clock ---
+[INFO] Deleting /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ berlin-clock ---
+[WARNING] SonarQube scanners will require Java 11+ starting on next version
+[INFO] Load global settings
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ berlin-clock ---
+[INFO] Load global settings (done) | time=603ms
+[INFO] Server id: BF41A1F2-AW-DEfIe60HdSCUiXpXw
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=266ms
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ berlin-clock ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ berlin-clock ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ berlin-clock ---
+[INFO] Surefire report directory: /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ken.kata.techtest.parser.BerlinClockParserTest
+[INFO] Load/download plugins (done) | time=5988ms
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.415 sec
+Running ken.kata.techtest.BerlinClockLoadTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.49 sec
+Running ken.kata.techtest.clock.SecondsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running ken.kata.techtest.clock.HoursTest
+RROO OOOO
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running ken.kata.techtest.clock.MinutesTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running ken.kata.techtest.clock.HoursTimeUnitBottomPartTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running ken.kata.techtest.clock.SecondsTimeUnitPartTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running ken.kata.techtest.clock.HoursTimeUnitTopPartTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running ken.kata.techtest.clock.MinutesTimeUnitTopPartTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running ken.kata.techtest.clock.MinutesTimeUnitBottomPartTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running ken.kata.techtest.BerlinClockUTest
+13::17:01 -> O RROO RRRO YYROOOOOOOO YYOO
+23::59:59 -> O RRRR RRRO YYRYYRYYRYY YYYY
+24::00:00 -> Y RRRR RRRR OOOOOOOOOOO OOOO
+24::00:01 -> O RRRR RRRR OOOOOOOOOOO OOOO
+01::00:00 -> Y OOOO ROOO OOOOOOOOOOO OOOO
+10::10:10 -> Y RROO OOOO YYOOOOOOOOO OOOO
+16::16:16 -> Y RRRO ROOO YYROOOOOOOO YOOO
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec
+
+Results :
+
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=25ms
+[INFO] Project key: ken:berlin-clock
+[INFO] Base dir: /var/jenkins_home/jobs/pipeline-script-from-scm/workspace
+[INFO] Working dir: /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target/sonar
+[INFO] Load project settings for component key: 'ken:berlin-clock'
+[INFO] Load project settings for component key: 'ken:berlin-clock' (done) | time=143ms
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.7:cobertura (default-cli) > [cobertura]test @ berlin-clock >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ berlin-clock ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ berlin-clock ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:instrument (default-cli) @ berlin-clock ---
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=827ms
+[INFO] Load active rules
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[WARN] Unable to instrument file /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target/generated-classes/cobertura/ken/kata/techtest/clock/TimeUnitPart.class
+java.lang.IllegalArgumentException: INVOKESPECIAL/STATIC on interfaces require ASM 5
+	at org.objectweb.asm.MethodVisitor.visitMethodInsn(Unknown Source) ~[asm-5.0.1.jar:5.0.1]
+	at org.objectweb.asm.ClassReader.a(Unknown Source) ~[asm-5.0.1.jar:5.0.1]
+	at org.objectweb.asm.ClassReader.b(Unknown Source) ~[asm-5.0.1.jar:5.0.1]
+	at org.objectweb.asm.ClassReader.accept(Unknown Source) ~[asm-5.0.1.jar:5.0.1]
+	at org.objectweb.asm.ClassReader.accept(Unknown Source) ~[asm-5.0.1.jar:5.0.1]
+	at net.sourceforge.cobertura.instrument.CoberturaInstrumenter.instrumentClass(CoberturaInstrumenter.java:161) [cobertura-2.1.1.jar:2.1.1]
+	at net.sourceforge.cobertura.instrument.CoberturaInstrumenter.instrumentClass(CoberturaInstrumenter.java:129) [cobertura-2.1.1.jar:2.1.1]
+	at net.sourceforge.cobertura.instrument.CoberturaInstrumenter.addInstrumentationToSingleClass(CoberturaInstrumenter.java:243) [cobertura-2.1.1.jar:2.1.1]
+	at net.sourceforge.cobertura.instrument.CodeInstrumentationTask.addInstrumentationToSingleClass(CodeInstrumentationTask.java:299) [cobertura-2.1.1.jar:2.1.1]
+	at net.sourceforge.cobertura.instrument.CodeInstrumentationTask.addInstrumentation(CodeInstrumentationTask.java:308) [cobertura-2.1.1.jar:2.1.1]
+	at net.sourceforge.cobertura.instrument.CodeInstrumentationTask.instrument(CodeInstrumentationTask.java:90) [cobertura-2.1.1.jar:2.1.1]
+	at net.sourceforge.cobertura.dsl.Cobertura.instrumentCode(Cobertura.java:74) [cobertura-2.1.1.jar:2.1.1]
+	at net.sourceforge.cobertura.instrument.InstrumentMain.instrument(InstrumentMain.java:82) [cobertura-2.1.1.jar:2.1.1]
+	at net.sourceforge.cobertura.instrument.InstrumentMain.main(InstrumentMain.java:99) [cobertura-2.1.1.jar:2.1.1]
+[INFO] Cobertura: Saved information on 19 classes.
+[INFO] Cobertura: Saved information on 19 classes.
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ berlin-clock ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ berlin-clock ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ berlin-clock ---
+[INFO] Surefire report directory: /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ken.kata.techtest.parser.BerlinClockParserTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.621 sec
+Running ken.kata.techtest.BerlinClockLoadTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 sec
+Running ken.kata.techtest.clock.SecondsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running ken.kata.techtest.clock.HoursTest
+RROO OOOO
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running ken.kata.techtest.clock.MinutesTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running ken.kata.techtest.clock.HoursTimeUnitBottomPartTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running ken.kata.techtest.clock.SecondsTimeUnitPartTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running ken.kata.techtest.clock.HoursTimeUnitTopPartTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running ken.kata.techtest.clock.MinutesTimeUnitTopPartTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running ken.kata.techtest.clock.MinutesTimeUnitBottomPartTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running ken.kata.techtest.BerlinClockUTest
+13::17:01 -> O RROO RRRO YYROOOOOOOO YYOO
+23::59:59 -> O RRRR RRRO YYRYYRYYRYY YYYY
+24::00:00 -> Y RRRR RRRR OOOOOOOOOOO OOOO
+24::00:01 -> O RRRR RRRR OOOOOOOOOOO OOOO
+01::00:00 -> Y OOOO ROOO OOOOOOOOOOO OOOO
+10::10:10 -> Y RROO OOOO YYOOOOOOOOO OOOO
+16::16:16 -> Y RRRO ROOO YYROOOOOOOO YOOO
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec
+[INFO] Cobertura: Loaded information on 19 classes.
+[INFO] Cobertura: Saved information on 19 classes.
+
+Results :
+
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.7:cobertura (default-cli) < [cobertura]test @ berlin-clock <<<
+[INFO] 
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:cobertura (default-cli) @ berlin-clock ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 19 classes.
+[WARN] JavaNCSS got an error while parsing the java file /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/java/ken/kata/techtest/clock/AbstractTimeUnit.java
+ParseException in STDIN
+Last useful checkpoint: "ken.kata.techtest.clock.AbstractTimeUnit.display(int)"
+Encountered " ">" "> "" at line 20, column 35.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+
+[WARN] JavaNCSS got an error while parsing the java file /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/java/ken/kata/techtest/clock/hours/Hours.java
+ParseException in STDIN
+Last useful checkpoint: "ken.kata.techtest.clock.hours.Hoursken.kata.techtest.clock.hours.Hours.Hours()"
+Encountered " ">" "> "" at line 11, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+
+[WARN] JavaNCSS got an error while parsing the java file /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/java/ken/kata/techtest/clock/hours/HoursFactory.java
+ParseException in STDIN
+Last useful checkpoint: "ken.kata.techtest.clock.hours.HoursFactory.createTopPart()"
+Encountered " ">" "> "" at line 25, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+
+[WARN] JavaNCSS got an error while parsing the java file /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/java/ken/kata/techtest/clock/minutes/Minutes.java
+ParseException in STDIN
+Last useful checkpoint: "ken.kata.techtest.clock.minutes.Minutesken.kata.techtest.clock.minutes.Minutes.Minutes()"
+Encountered " ">" "> "" at line 11, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+
+[WARN] JavaNCSS got an error while parsing the java file /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/java/ken/kata/techtest/clock/minutes/MinutesFactory.java
+ParseException in STDIN
+Last useful checkpoint: "ken.kata.techtest.clock.minutes.MinutesFactory.createTopPart()"
+Encountered " ">" "> "" at line 32, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+
+[WARN] JavaNCSS got an error while parsing the java file /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/java/ken/kata/techtest/clock/seconds/Seconds.java
+ParseException in STDIN
+Last useful checkpoint: "ken.kata.techtest.clock.seconds.Secondsken.kata.techtest.clock.seconds.Seconds.Seconds()"
+Encountered " ">" "> "" at line 11, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+
+[WARN] JavaNCSS got an error while parsing the java file /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/java/ken/kata/techtest/clock/seconds/SecondsFactory.java
+ParseException in STDIN
+Last useful checkpoint: "ken.kata.techtest.clock.seconds.SecondsFactory.createPart()"
+Encountered " ">" "> "" at line 21, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+
+Report time: 459ms
+
+[ERROR] net.sourceforge.cobertura.javancss.parser.ParseException: Encountered " ">" "> "" at line 20, column 35.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.generateParseException(JavaParser.java:10490)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.jj_consume_token(JavaParser.java:10366)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3175)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3085)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ArgumentList(JavaParser.java:3620)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Arguments(JavaParser.java:3610)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimarySuffix(JavaParser.java:3511)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryExpression(JavaParser.java:3384)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PostfixExpression(JavaParser.java:3330)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpressionNotPlusMinus(JavaParser.java:3237)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3171)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3061)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ReturnStatement(JavaParser.java:4572)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Statement(JavaParser.java:3825)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.BlockStatement(JavaParser.java:3984)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Block(JavaParser.java:3934)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MethodDeclaration(JavaParser.java:1987)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBodyDeclaration(JavaParser.java:1039)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBody(JavaParser.java:898)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnmodifiedClassDeclaration(JavaParser.java:824)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassDeclaration(JavaParser.java:728)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.TypeDeclaration(JavaParser.java:575)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.CompilationUnit(JavaParser.java:318)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.parse(JavaParser.java:100)
+	at net.sourceforge.cobertura.javancss.Javancss._measureSource(Javancss.java:192)
+	at net.sourceforge.cobertura.javancss.Javancss._measureRoot(Javancss.java:268)
+	at net.sourceforge.cobertura.javancss.Javancss.<init>(Javancss.java:347)
+	at net.sourceforge.cobertura.javancss.JavancssFactory.newInstance(JavancssFactory.java:40)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getFunctionMetricsForSingleFile(ComplexityCalculator.java:243)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getAccumlatedCCNForSingleFile(ComplexityCalculator.java:143)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForSourceFileNameInternal(ComplexityCalculator.java:273)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForPackageInternal(ComplexityCalculator.java:208)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForProject(ComplexityCalculator.java:174)
+	at net.sourceforge.cobertura.reporting.xml.XMLReport.<init>(XMLReport.java:70)
+	at net.sourceforge.cobertura.reporting.xml.XMLReportFormatStrategy.save(XMLReportFormatStrategy.java:18)
+	at net.sourceforge.cobertura.reporting.NativeReport.export(NativeReport.java:31)
+	at net.sourceforge.cobertura.reporting.CompositeReport.export(CompositeReport.java:19)
+	at net.sourceforge.cobertura.reporting.ReportMain.parseArgumentsAndReport(ReportMain.java:91)
+	at net.sourceforge.cobertura.reporting.ReportMain.generateReport(ReportMain.java:141)
+	at net.sourceforge.cobertura.reporting.ReportMain.main(ReportMain.java:151)
+net.sourceforge.cobertura.javancss.parser.ParseException: Encountered " ">" "> "" at line 11, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.generateParseException(JavaParser.java:10490)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.jj_consume_token(JavaParser.java:10366)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3175)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3085)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ArgumentList(JavaParser.java:3620)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Arguments(JavaParser.java:3610)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AllocationExpression(JavaParser.java:3665)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryPrefix(JavaParser.java:3456)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryExpression(JavaParser.java:3376)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PostfixExpression(JavaParser.java:3330)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpressionNotPlusMinus(JavaParser.java:3237)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3171)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3061)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.StatementExpression(JavaParser.java:4106)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Statement(JavaParser.java:3795)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.BlockStatement(JavaParser.java:3984)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConstructorDeclaration(JavaParser.java:2375)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBodyDeclaration(JavaParser.java:1037)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBody(JavaParser.java:898)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnmodifiedClassDeclaration(JavaParser.java:824)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassDeclaration(JavaParser.java:728)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.TypeDeclaration(JavaParser.java:575)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.CompilationUnit(JavaParser.java:318)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.parse(JavaParser.java:100)
+	at net.sourceforge.cobertura.javancss.Javancss._measureSource(Javancss.java:192)
+	at net.sourceforge.cobertura.javancss.Javancss._measureRoot(Javancss.java:268)
+	at net.sourceforge.cobertura.javancss.Javancss.<init>(Javancss.java:347)
+	at net.sourceforge.cobertura.javancss.JavancssFactory.newInstance(JavancssFactory.java:40)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getFunctionMetricsForSingleFile(ComplexityCalculator.java:243)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getAccumlatedCCNForSingleFile(ComplexityCalculator.java:143)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForSourceFileNameInternal(ComplexityCalculator.java:273)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForPackageInternal(ComplexityCalculator.java:208)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForProject(ComplexityCalculator.java:174)
+	at net.sourceforge.cobertura.reporting.xml.XMLReport.<init>(XMLReport.java:70)
+	at net.sourceforge.cobertura.reporting.xml.XMLReportFormatStrategy.save(XMLReportFormatStrategy.java:18)
+	at net.sourceforge.cobertura.reporting.NativeReport.export(NativeReport.java:31)
+	at net.sourceforge.cobertura.reporting.CompositeReport.export(CompositeReport.java:19)
+	at net.sourceforge.cobertura.reporting.ReportMain.parseArgumentsAndReport(ReportMain.java:91)
+	at net.sourceforge.cobertura.reporting.ReportMain.generateReport(ReportMain.java:141)
+	at net.sourceforge.cobertura.reporting.ReportMain.main(ReportMain.java:151)
+net.sourceforge.cobertura.javancss.parser.ParseException: Encountered " ">" "> "" at line 25, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.generateParseException(JavaParser.java:10490)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.jj_consume_token(JavaParser.java:10366)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3175)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3085)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ArgumentList(JavaParser.java:3632)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Arguments(JavaParser.java:3610)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AllocationExpression(JavaParser.java:3665)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryPrefix(JavaParser.java:3456)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryExpression(JavaParser.java:3376)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PostfixExpression(JavaParser.java:3330)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpressionNotPlusMinus(JavaParser.java:3237)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3171)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3061)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ReturnStatement(JavaParser.java:4572)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Statement(JavaParser.java:3825)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.BlockStatement(JavaParser.java:3984)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Block(JavaParser.java:3934)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MethodDeclaration(JavaParser.java:1987)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBodyDeclaration(JavaParser.java:1039)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBody(JavaParser.java:898)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnmodifiedClassDeclaration(JavaParser.java:824)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassDeclaration(JavaParser.java:728)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.TypeDeclaration(JavaParser.java:575)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.CompilationUnit(JavaParser.java:318)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.parse(JavaParser.java:100)
+	at net.sourceforge.cobertura.javancss.Javancss._measureSource(Javancss.java:192)
+	at net.sourceforge.cobertura.javancss.Javancss._measureRoot(Javancss.java:268)
+	at net.sourceforge.cobertura.javancss.Javancss.<init>(Javancss.java:347)
+	at net.sourceforge.cobertura.javancss.JavancssFactory.newInstance(JavancssFactory.java:40)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getFunctionMetricsForSingleFile(ComplexityCalculator.java:243)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getAccumlatedCCNForSingleFile(ComplexityCalculator.java:143)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForSourceFileNameInternal(ComplexityCalculator.java:273)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForPackageInternal(ComplexityCalculator.java:208)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForProject(ComplexityCalculator.java:174)
+	at net.sourceforge.cobertura.reporting.xml.XMLReport.<init>(XMLReport.java:70)
+	at net.sourceforge.cobertura.reporting.xml.XMLReportFormatStrategy.save(XMLReportFormatStrategy.java:18)
+	at net.sourceforge.cobertura.reporting.NativeReport.export(NativeReport.java:31)
+	at net.sourceforge.cobertura.reporting.CompositeReport.export(CompositeReport.java:19)
+	at net.sourceforge.cobertura.reporting.ReportMain.parseArgumentsAndReport(ReportMain.java:91)
+	at net.sourceforge.cobertura.reporting.ReportMain.generateReport(ReportMain.java:141)
+	at net.sourceforge.cobertura.reporting.ReportMain.main(ReportMain.java:151)
+net.sourceforge.cobertura.javancss.parser.ParseException: Encountered " ">" "> "" at line 11, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.generateParseException(JavaParser.java:10490)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.jj_consume_token(JavaParser.java:10366)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3175)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3085)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ArgumentList(JavaParser.java:3620)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Arguments(JavaParser.java:3610)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AllocationExpression(JavaParser.java:3665)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryPrefix(JavaParser.java:3456)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryExpression(JavaParser.java:3376)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PostfixExpression(JavaParser.java:3330)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpressionNotPlusMinus(JavaParser.java:3237)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3171)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3061)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.StatementExpression(JavaParser.java:4106)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Statement(JavaParser.java:3795)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.BlockStatement(JavaParser.java:3984)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConstructorDeclaration(JavaParser.java:2375)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBodyDeclaration(JavaParser.java:1037)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBody(JavaParser.java:898)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnmodifiedClassDeclaration(JavaParser.java:824)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassDeclaration(JavaParser.java:728)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.TypeDeclaration(JavaParser.java:575)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.CompilationUnit(JavaParser.java:318)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.parse(JavaParser.java:100)
+	at net.sourceforge.cobertura.javancss.Javancss._measureSource(Javancss.java:192)
+	at net.sourceforge.cobertura.javancss.Javancss._measureRoot(Javancss.java:268)
+	at net.sourceforge.cobertura.javancss.Javancss.<init>(Javancss.java:347)
+	at net.sourceforge.cobertura.javancss.JavancssFactory.newInstance(JavancssFactory.java:40)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getFunctionMetricsForSingleFile(ComplexityCalculator.java:243)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getAccumlatedCCNForSingleFile(ComplexityCalculator.java:143)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForSourceFileNameInternal(ComplexityCalculator.java:273)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForPackageInternal(ComplexityCalculator.java:208)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForProject(ComplexityCalculator.java:174)
+	at net.sourceforge.cobertura.reporting.xml.XMLReport.<init>(XMLReport.java:70)
+	at net.sourceforge.cobertura.reporting.xml.XMLReportFormatStrategy.save(XMLReportFormatStrategy.java:18)
+	at net.sourceforge.cobertura.reporting.NativeReport.export(NativeReport.java:31)
+	at net.sourceforge.cobertura.reporting.CompositeReport.export(CompositeReport.java:19)
+	at net.sourceforge.cobertura.reporting.ReportMain.parseArgumentsAndReport(ReportMain.java:91)
+	at net.sourceforge.cobertura.reporting.ReportMain.generateReport(ReportMain.java:141)
+	at net.sourceforge.cobertura.reporting.ReportMain.main(ReportMain.java:151)
+net.sourceforge.cobertura.javancss.parser.ParseException: Encountered " ">" "> "" at line 32, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.generateParseException(JavaParser.java:10490)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.jj_consume_token(JavaParser.java:10366)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3175)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3085)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ArgumentList(JavaParser.java:3632)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Arguments(JavaParser.java:3610)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AllocationExpression(JavaParser.java:3665)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryPrefix(JavaParser.java:3456)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryExpression(JavaParser.java:3376)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PostfixExpression(JavaParser.java:3330)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpressionNotPlusMinus(JavaParser.java:3237)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3171)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3061)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ReturnStatement(JavaParser.java:4572)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Statement(JavaParser.java:3825)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.BlockStatement(JavaParser.java:3984)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Block(JavaParser.java:3934)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MethodDeclaration(JavaParser.java:1987)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBodyDeclaration(JavaParser.java:1039)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBody(JavaParser.java:898)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnmodifiedClassDeclaration(JavaParser.java:824)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassDeclaration(JavaParser.java:728)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.TypeDeclaration(JavaParser.java:575)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.CompilationUnit(JavaParser.java:318)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.parse(JavaParser.java:100)
+	at net.sourceforge.cobertura.javancss.Javancss._measureSource(Javancss.java:192)
+	at net.sourceforge.cobertura.javancss.Javancss._measureRoot(Javancss.java:268)
+	at net.sourceforge.cobertura.javancss.Javancss.<init>(Javancss.java:347)
+	at net.sourceforge.cobertura.javancss.JavancssFactory.newInstance(JavancssFactory.java:40)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getFunctionMetricsForSingleFile(ComplexityCalculator.java:243)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getAccumlatedCCNForSingleFile(ComplexityCalculator.java:143)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForSourceFileNameInternal(ComplexityCalculator.java:273)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForPackageInternal(ComplexityCalculator.java:208)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForProject(ComplexityCalculator.java:174)
+	at net.sourceforge.cobertura.reporting.xml.XMLReport.<init>(XMLReport.java:70)
+	at net.sourceforge.cobertura.reporting.xml.XMLReportFormatStrategy.save(XMLReportFormatStrategy.java:18)
+	at net.sourceforge.cobertura.reporting.NativeReport.export(NativeReport.java:31)
+	at net.sourceforge.cobertura.reporting.CompositeReport.export(CompositeReport.java:19)
+	at net.sourceforge.cobertura.reporting.ReportMain.parseArgumentsAndReport(ReportMain.java:91)
+	at net.sourceforge.cobertura.reporting.ReportMain.generateReport(ReportMain.java:141)
+	at net.sourceforge.cobertura.reporting.ReportMain.main(ReportMain.java:151)
+net.sourceforge.cobertura.javancss.parser.ParseException: Encountered " ">" "> "" at line 11, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.generateParseException(JavaParser.java:10490)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.jj_consume_token(JavaParser.java:10366)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3175)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3085)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ArgumentList(JavaParser.java:3620)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Arguments(JavaParser.java:3610)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AllocationExpression(JavaParser.java:3665)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryPrefix(JavaParser.java:3456)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryExpression(JavaParser.java:3376)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PostfixExpression(JavaParser.java:3330)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpressionNotPlusMinus(JavaParser.java:3237)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3171)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3061)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.StatementExpression(JavaParser.java:4106)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Statement(JavaParser.java:3795)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.BlockStatement(JavaParser.java:3984)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConstructorDeclaration(JavaParser.java:2375)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBodyDeclaration(JavaParser.java:1037)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBody(JavaParser.java:898)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnmodifiedClassDeclaration(JavaParser.java:824)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassDeclaration(JavaParser.java:728)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.TypeDeclaration(JavaParser.java:575)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.CompilationUnit(JavaParser.java:318)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.parse(JavaParser.java:100)
+	at net.sourceforge.cobertura.javancss.Javancss._measureSource(Javancss.java:192)
+	at net.sourceforge.cobertura.javancss.Javancss._measureRoot(Javancss.java:268)
+	at net.sourceforge.cobertura.javancss.Javancss.<init>(Javancss.java:347)
+	at net.sourceforge.cobertura.javancss.JavancssFactory.newInstance(JavancssFactory.java:40)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getFunctionMetricsForSingleFile(ComplexityCalculator.java:243)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getAccumlatedCCNForSingleFile(ComplexityCalculator.java:143)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForSourceFileNameInternal(ComplexityCalculator.java:273)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForPackageInternal(ComplexityCalculator.java:208)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForProject(ComplexityCalculator.java:174)
+	at net.sourceforge.cobertura.reporting.xml.XMLReport.<init>(XMLReport.java:70)
+	at net.sourceforge.cobertura.reporting.xml.XMLReportFormatStrategy.save(XMLReportFormatStrategy.java:18)
+	at net.sourceforge.cobertura.reporting.NativeReport.export(NativeReport.java:31)
+	at net.sourceforge.cobertura.reporting.CompositeReport.export(CompositeReport.java:19)
+	at net.sourceforge.cobertura.reporting.ReportMain.parseArgumentsAndReport(ReportMain.java:91)
+	at net.sourceforge.cobertura.reporting.ReportMain.generateReport(ReportMain.java:141)
+	at net.sourceforge.cobertura.reporting.ReportMain.main(ReportMain.java:151)
+net.sourceforge.cobertura.javancss.parser.ParseException: Encountered " ">" "> "" at line 21, column 26.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.generateParseException(JavaParser.java:10490)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.jj_consume_token(JavaParser.java:10366)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3175)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3085)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ArgumentList(JavaParser.java:3632)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Arguments(JavaParser.java:3610)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AllocationExpression(JavaParser.java:3665)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryPrefix(JavaParser.java:3456)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryExpression(JavaParser.java:3376)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PostfixExpression(JavaParser.java:3330)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpressionNotPlusMinus(JavaParser.java:3237)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3171)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3061)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ReturnStatement(JavaParser.java:4572)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Statement(JavaParser.java:3825)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.BlockStatement(JavaParser.java:3984)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Block(JavaParser.java:3934)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MethodDeclaration(JavaParser.java:1987)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBodyDeclaration(JavaParser.java:1039)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBody(JavaParser.java:898)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnmodifiedClassDeclaration(JavaParser.java:824)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassDeclaration(JavaParser.java:728)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.TypeDeclaration(JavaParser.java:575)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.CompilationUnit(JavaParser.java:318)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.parse(JavaParser.java:100)
+	at net.sourceforge.cobertura.javancss.Javancss._measureSource(Javancss.java:192)
+	at net.sourceforge.cobertura.javancss.Javancss._measureRoot(Javancss.java:268)
+	at net.sourceforge.cobertura.javancss.Javancss.<init>(Javancss.java:347)
+	at net.sourceforge.cobertura.javancss.JavancssFactory.newInstance(JavancssFactory.java:40)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getFunctionMetricsForSingleFile(ComplexityCalculator.java:243)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getAccumlatedCCNForSingleFile(ComplexityCalculator.java:143)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForSourceFileNameInternal(ComplexityCalculator.java:273)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForPackageInternal(ComplexityCalculator.java:208)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForProject(ComplexityCalculator.java:174)
+	at net.sourceforge.cobertura.reporting.xml.XMLReport.<init>(XMLReport.java:70)
+	at net.sourceforge.cobertura.reporting.xml.XMLReportFormatStrategy.save(XMLReportFormatStrategy.java:18)
+	at net.sourceforge.cobertura.reporting.NativeReport.export(NativeReport.java:31)
+	at net.sourceforge.cobertura.reporting.CompositeReport.export(CompositeReport.java:19)
+	at net.sourceforge.cobertura.reporting.ReportMain.parseArgumentsAndReport(ReportMain.java:91)
+	at net.sourceforge.cobertura.reporting.ReportMain.generateReport(ReportMain.java:141)
+	at net.sourceforge.cobertura.reporting.ReportMain.main(ReportMain.java:151)
+
+[INFO] Cobertura Report generation was successful.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.204 s
+[INFO] Finished at: 2020-01-09T23:26:16Z
+[INFO] Load active rules (done) | time=6095ms
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 34 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module berlin-clock
+[INFO] Final Memory: 25M/162M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4ClrIAZ5i8mKIEDaxkgH9g8MFCuVi/STCV+sxuerompJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] }
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=52ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[WARNING] Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property.
+[INFO] JavaClasspath initialization (done) | time=21ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=2ms
+[INFO] Java Main Files AST scan
+[INFO] 20 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=47ms
+[INFO] 20/20 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=2042ms
+[INFO] Java Test Files AST scan
+[INFO] 13 source files to be analyzed
+[INFO] 13/13 source files have been analyzed
+[INFO] Java Test Files AST scan (done) | time=774ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=4366ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=74ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=2ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=308ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=21ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=265ms
+[INFO] 1/1 source files have been analyzed
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=20ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=55ms
+[INFO] 16 files had no CPD blocks
+[INFO] Calculating CPD for 4 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 153ms, dir size=135 KB
+[INFO] Analysis report compressed in 162ms, zip size=67 KB
+[INFO] Analysis report uploaded in 73ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://172.21.96.1:9004/dashboard?id=ken%3Aberlin-clock
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://172.21.96.1:9004/api/ce/task?id=AW-MoW3J60HdSCUiXrgG
+[INFO] Analysis total time: 17.617 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 30.796 s
+[INFO] Finished at: 2020-01-09T23:26:25Z
+[INFO] Final Memory: 29M/286M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4M8Opb8x0FzFzERiA65aKl5N1qaiXaJZK5h1aLAaEusGAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOx9grrdf6p9AxC1Tze+AAAA[0m[Pipeline] }
+[8mha:////4Ara0rKK1GujL8vAqXgmVDpNsQk9df0ZbpwsscccqVCAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgF/VhBfvgAAAA==[0m[Pipeline] // parallel
+Post stage
+[8mha:////4LW19B6voG0LHPM/kfPqqCnvNc1PI+BsNLwYI3q1ARDIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQRUhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+Qbmvcx1q/wGERntovgAAAA==[0m[Pipeline] junit
+Recording test results
+[8mha:////4E52lgffcYKpWE8ZAacRoVTdluDAXmjcbmR/p0wE/6lOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw9I6/a8vgAAAA==[0m[Pipeline] cobertura
+[Cobertura] Publishing Cobertura coverage report...
+
+[Cobertura] Publishing Cobertura coverage results...
+
+[Cobertura] Cobertura coverage report found.
+
+[8mha:////4EAGR4oVuq5kVoaqqvGt1dhn3yKGAJM849Pb6oasrSALAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/csH/dvgAAAA==[0m[Pipeline] }
+[8mha:////4OnA8pV66xfdHj0dTWR+u6kQhmQ8fIsJgyEw9MkyNn3hAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRRRIiCqtlYYXmNgYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHg72mwVLsLHo3mrxw4jBcHU/Y8wU7pshOY6unlpVuFmw5aVhSlLASsNHUOY6WTIKt6OVDVk6Sqc4p5O8ooLTqDk8oRDYnGdIX5gC726gi08/zVwCz9wnKfZ2rPnwA5PLsLL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4JoCpgfKLZEjuZaC1tUc+piTjmHQFV3YwHlYsh8umlc7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzrWvP8n4YnC+AAAA[0m[Pipeline] }
+[8mha:////4Ltl/3k8BluenIhZYoILxgBaWW14tFiIIfOhyEKkWanuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRonSIitZKwwtMbIwT686xLyQVL+Jr/AGLSFRssdrZZl5v2KYIJ4pW9AYHh6lzIvjJ5iVmisPN0yx6uoqOMJE3ojVzS9qcV2yJDawpSthI2BnsPCWHlmEve/VQlVdoqwvH/B0llE6P8IRCZjOryF9YIhzuk06EP89fASwhMJRNk6uuP+f4YBq+AAAA[0m[Pipeline] // stage
+[8mha:////4AZ9LA2Jlf0bQbTOy8pq8+Z294CMdCLKOKtEFXbnVfueAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQGAwQmjwgAAAA==[0m[Pipeline] stage
+[8mha:////4HNV6Gt+b7KM1TJ6HUOOMg/Le+K9V90AdxPZdpwdSoD/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] { (deploy)
+[8mha:////4HGF1tf7N2oeSvSLpSJKE3gktTS6ekMGGPf8zEipZAzFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN+EEkMO+AAAA[0m[Pipeline] tool
+[8mha:////4Ld/eMH2jPNuHKtQHif6e5rYMl8JnFbU1AVlGjt94PkqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEuGAhEvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MAY3xz07blY9GKzALRxCEAu59c6PXVj6FS/X+GyMjmaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFvKRNdvgAAAA==[0m[Pipeline] tool
+[8mha:////4Neux3IzjTtyHf0FEcyQjx4/IxAe+4kTBHgkzxDLDa0oAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AER+BONvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MLDrsQoUpGSeeHBOmj6BH8UDr2A8UNlUMV6Q/ko/n+NAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSMCCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g1BOOlYwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4JulYK2FxoJ3xXGQX8qE1zwCpFOYwGw4tlMl4/9NbgjwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] {
+[8mha:////4MUXUud7LcvxwZqSPeOW45b8dVC5dHfnab8bnzyEuz/ZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [MyGlobalSettings] to file:/var/jenkins_home/jobs/pipeline-script-from-scm/workspace@tmp/config5595377207304112647tmp
+[8mha:////4BOFnzoJNgiOpvm2aHyFmRZj2K8bo+kdDuXXFYCxKCsfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] {
+[8mha:////4Fze/6TYDvAdqtnSYb6a1XFVHm6NQeLZiMDboWXKfT88AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] sh
++ mvn -s /var/jenkins_home/jobs/pipeline-script-from-scm/workspace@tmp/config5595377207304112647tmp deploy -DskipTests -Dartifactory_url=http://172.21.96.1:8081/artifactory/example-repo-local
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building berlin-clock 1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ berlin-clock ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ berlin-clock ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ berlin-clock ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ berlin-clock ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ berlin-clock ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ berlin-clock ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+Progress (1): 1.4/4.5 kBProgress (1): 2.7/4.5 kBProgress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom (4.5 kB at 3.2 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+Progress (1): 1.4/2.8 kBProgress (1): 2.7/2.8 kBProgress (1): 2.8 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom (2.8 kB at 8.4 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+Progress (1): 1.4/1.7 kBProgress (1): 1.7 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom (1.7 kB at 5.5 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+Progress (1): 1.4/2.7 kBProgress (1): 2.7 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom (2.7 kB at 8.6 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
+Progress (1): 1.4/19 kBProgress (1): 2.7/19 kBProgress (1): 4.1/19 kBProgress (1): 5.5/19 kBProgress (1): 6.9/19 kBProgress (1): 8.2/19 kBProgress (1): 9.6/19 kBProgress (1): 11/19 kB Progress (1): 12/19 kBProgress (1): 14/19 kBProgress (1): 15/19 kBProgress (1): 16/19 kBProgress (1): 18/19 kBProgress (1): 19 kB                      Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom (19 kB at 40 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom
+Progress (1): 1.0 kB                    Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom (1.0 kB at 3.3 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+Progress (1): 1.4/38 kBProgress (1): 2.7/38 kBProgress (1): 4.1/38 kBProgress (1): 5.5/38 kBProgress (1): 6.9/38 kBProgress (1): 8.2/38 kBProgress (1): 9.6/38 kBProgress (1): 11/38 kB Progress (1): 12/38 kBProgress (1): 14/38 kBProgress (1): 15/38 kBProgress (1): 16/38 kBProgress (1): 18/38 kBProgress (1): 19/38 kBProgress (1): 21/38 kBProgress (1): 22/38 kBProgress (1): 23/38 kBProgress (1): 25/38 kBProgress (1): 26/38 kBProgress (1): 27/38 kBProgress (1): 29/38 kBProgress (1): 30/38 kBProgress (1): 32/38 kBProgress (1): 33/38 kBProgress (1): 34/38 kBProgress (1): 36/38 kBProgress (1): 37/38 kBProgress (1): 38 kB                      Downloaded: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar (38 kB at 72 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+Progress (1): 1.4/60 kBProgress (1): 2.7/60 kBProgress (2): 2.7/60 kB | 1.4/22 kBProgress (2): 2.7/60 kB | 2.7/22 kBProgress (3): 2.7/60 kB | 2.7/22 kB | 1.4/184 kBProgress (3): 2.7/60 kB | 4.1/22 kB | 1.4/184 kBProgress (3): 2.7/60 kB | 5.5/22 kB | 1.4/184 kBProgress (4): 2.7/60 kB | 5.5/22 kB | 1.4/184 kB | 1.4/58 kBProgress (4): 2.7/60 kB | 5.5/22 kB | 1.4/184 kB | 2.7/58 kBProgress (4): 2.7/60 kB | 5.5/22 kB | 1.4/184 kB | 4.1/58 kBProgress (4): 2.7/60 kB | 5.5/22 kB | 1.4/184 kB | 5.5/58 kBProgress (4): 2.7/60 kB | 5.5/22 kB | 1.4/184 kB | 6.9/58 kBProgress (4): 2.7/60 kB | 5.5/22 kB | 1.4/184 kB | 8.2/58 kBProgress (4): 2.7/60 kB | 5.5/22 kB | 1.4/184 kB | 9.6/58 kBProgress (4): 2.7/60 kB | 5.5/22 kB | 1.4/184 kB | 11/58 kB Progress (4): 2.7/60 kB | 5.5/22 kB | 2.7/184 kB | 11/58 kBProgress (4): 2.7/60 kB | 6.9/22 kB | 2.7/184 kB | 11/58 kBProgress (4): 2.7/60 kB | 6.9/22 kB | 4.1/184 kB | 11/58 kBProgress (4): 4.1/60 kB | 6.9/22 kB | 4.1/184 kB | 11/58 kBProgress (4): 5.5/60 kB | 6.9/22 kB | 4.1/184 kB | 11/58 kBProgress (4): 6.9/60 kB | 6.9/22 kB | 4.1/184 kB | 11/58 kBProgress (4): 8.2/60 kB | 6.9/22 kB | 4.1/184 kB | 11/58 kBProgress (4): 9.6/60 kB | 6.9/22 kB | 4.1/184 kB | 11/58 kBProgress (4): 11/60 kB | 6.9/22 kB | 4.1/184 kB | 11/58 kB Progress (4): 11/60 kB | 6.9/22 kB | 4.1/184 kB | 12/58 kBProgress (4): 12/60 kB | 6.9/22 kB | 4.1/184 kB | 12/58 kBProgress (4): 12/60 kB | 6.9/22 kB | 5.5/184 kB | 12/58 kBProgress (4): 12/60 kB | 6.9/22 kB | 6.9/184 kB | 12/58 kBProgress (4): 12/60 kB | 6.9/22 kB | 8.2/184 kB | 12/58 kBProgress (4): 12/60 kB | 6.9/22 kB | 9.6/184 kB | 12/58 kBProgress (4): 12/60 kB | 6.9/22 kB | 11/184 kB | 12/58 kB Progress (4): 12/60 kB | 8.2/22 kB | 11/184 kB | 12/58 kBProgress (4): 12/60 kB | 9.6/22 kB | 11/184 kB | 12/58 kBProgress (4): 12/60 kB | 11/22 kB | 11/184 kB | 12/58 kB Progress (4): 12/60 kB | 12/22 kB | 11/184 kB | 12/58 kBProgress (4): 12/60 kB | 12/22 kB | 12/184 kB | 12/58 kBProgress (4): 14/60 kB | 12/22 kB | 12/184 kB | 12/58 kBProgress (4): 15/60 kB | 12/22 kB | 12/184 kB | 12/58 kBProgress (4): 16/60 kB | 12/22 kB | 12/184 kB | 12/58 kBProgress (4): 16/60 kB | 14/22 kB | 12/184 kB | 12/58 kBProgress (4): 18/60 kB | 14/22 kB | 12/184 kB | 12/58 kBProgress (4): 19/60 kB | 14/22 kB | 12/184 kB | 12/58 kBProgress (4): 21/60 kB | 14/22 kB | 12/184 kB | 12/58 kBProgress (4): 22/60 kB | 14/22 kB | 12/184 kB | 12/58 kBProgress (4): 22/60 kB | 15/22 kB | 12/184 kB | 12/58 kBProgress (4): 23/60 kB | 15/22 kB | 12/184 kB | 12/58 kBProgress (4): 25/60 kB | 15/22 kB | 12/184 kB | 12/58 kBProgress (5): 25/60 kB | 15/22 kB | 12/184 kB | 12/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 12/184 kB | 12/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 12/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 14/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 15/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 16/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 18/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 19/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 21/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 22/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 23/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 15/22 kB | 14/184 kB | 25/58 kB | 1.4/208 kBProgress (5): 26/60 kB | 16/22 kB | 14/184 kB | 25/58 kB | 1.4/208 kBProgress (5): 27/60 kB | 16/22 kB | 14/184 kB | 25/58 kB | 1.4/208 kBProgress (5): 27/60 kB | 16/22 kB | 14/184 kB | 25/58 kB | 2.7/208 kBProgress (5): 29/60 kB | 16/22 kB | 14/184 kB | 25/58 kB | 2.7/208 kBProgress (5): 29/60 kB | 16/22 kB | 15/184 kB | 25/58 kB | 2.7/208 kBProgress (5): 29/60 kB | 16/22 kB | 16/184 kB | 25/58 kB | 2.7/208 kBProgress (5): 29/60 kB | 16/22 kB | 18/184 kB | 25/58 kB | 2.7/208 kBProgress (5): 29/60 kB | 16/22 kB | 19/184 kB | 25/58 kB | 2.7/208 kBProgress (5): 29/60 kB | 16/22 kB | 21/184 kB | 25/58 kB | 2.7/208 kBProgress (5): 29/60 kB | 16/22 kB | 22/184 kB | 25/58 kB | 2.7/208 kBProgress (5): 29/60 kB | 16/22 kB | 22/184 kB | 26/58 kB | 2.7/208 kBProgress (5): 29/60 kB | 18/22 kB | 22/184 kB | 26/58 kB | 2.7/208 kBProgress (5): 30/60 kB | 18/22 kB | 22/184 kB | 26/58 kB | 2.7/208 kBProgress (5): 30/60 kB | 18/22 kB | 22/184 kB | 26/58 kB | 4.1/208 kBProgress (5): 32/60 kB | 18/22 kB | 22/184 kB | 26/58 kB | 4.1/208 kBProgress (5): 32/60 kB | 18/22 kB | 22/184 kB | 27/58 kB | 4.1/208 kBProgress (5): 32/60 kB | 19/22 kB | 22/184 kB | 27/58 kB | 4.1/208 kBProgress (5): 32/60 kB | 21/22 kB | 22/184 kB | 27/58 kB | 4.1/208 kBProgress (5): 33/60 kB | 21/22 kB | 22/184 kB | 27/58 kB | 4.1/208 kBProgress (5): 33/60 kB | 21/22 kB | 22/184 kB | 27/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 21/22 kB | 22/184 kB | 27/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 21/22 kB | 22/184 kB | 29/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 21/22 kB | 22/184 kB | 30/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 21/22 kB | 22/184 kB | 32/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 21/22 kB | 22/184 kB | 33/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 21/22 kB | 22/184 kB | 34/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 21/22 kB | 22/184 kB | 36/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 21/22 kB | 22/184 kB | 36/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 22 kB | 22/184 kB | 36/58 kB | 5.5/208 kB   Progress (5): 34/60 kB | 22 kB | 22/184 kB | 37/58 kB | 5.5/208 kBProgress (5): 34/60 kB | 22 kB | 22/184 kB | 39/58 kB | 5.5/208 kBProgress (5): 36/60 kB | 22 kB | 22/184 kB | 39/58 kB | 5.5/208 kBProgress (5): 36/60 kB | 22 kB | 23/184 kB | 39/58 kB | 5.5/208 kBProgress (5): 36/60 kB | 22 kB | 23/184 kB | 39/58 kB | 6.9/208 kBProgress (5): 37/60 kB | 22 kB | 23/184 kB | 39/58 kB | 6.9/208 kBProgress (5): 37/60 kB | 22 kB | 23/184 kB | 39/58 kB | 8.2/208 kBProgress (5): 38/60 kB | 22 kB | 23/184 kB | 39/58 kB | 8.2/208 kBProgress (5): 38/60 kB | 22 kB | 23/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 23/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 25/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 26/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 27/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 29/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 30/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 32/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 33/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 34/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 36/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 37/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 38/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 9.6/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 11/208 kB Progress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 12/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 14/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 15/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 16/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 18/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 19/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 21/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 22/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 23/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 25/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 26/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 27/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 29/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 30/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 32/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 33/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 34/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 36/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 37/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 38/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 40/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 41/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 43/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 44/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 45/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 47/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 48/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 49/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 51/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 52/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 53/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 55/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 56/208 kBProgress (5): 40/60 kB | 22 kB | 40/184 kB | 39/58 kB | 58/208 kBProgress (5): 41/60 kB | 22 kB | 40/184 kB | 39/58 kB | 58/208 kBProgress (5): 43/60 kB | 22 kB | 40/184 kB | 39/58 kB | 58/208 kBProgress (5): 44/60 kB | 22 kB | 40/184 kB | 39/58 kB | 58/208 kBProgress (5): 45/60 kB | 22 kB | 40/184 kB | 39/58 kB | 58/208 kBProgress (5): 45/60 kB | 22 kB | 40/184 kB | 39/58 kB | 59/208 kBProgress (5): 47/60 kB | 22 kB | 40/184 kB | 39/58 kB | 59/208 kBProgress (5): 47/60 kB | 22 kB | 40/184 kB | 39/58 kB | 60/208 kBProgress (5): 47/60 kB | 22 kB | 41/184 kB | 39/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 41/184 kB | 39/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 43/184 kB | 39/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 44/184 kB | 39/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 45/184 kB | 39/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 45/184 kB | 40/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 45/184 kB | 41/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 45/184 kB | 43/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 45/184 kB | 44/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 47/184 kB | 44/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 48/184 kB | 44/58 kB | 60/208 kBProgress (5): 48/60 kB | 22 kB | 48/184 kB | 44/58 kB | 62/208 kBProgress (5): 48/60 kB | 22 kB | 48/184 kB | 46/58 kB | 62/208 kBProgress (5): 49/60 kB | 22 kB | 48/184 kB | 46/58 kB | 62/208 kBProgress (5): 49/60 kB | 22 kB | 48/184 kB | 47/58 kB | 62/208 kBProgress (5): 51/60 kB | 22 kB | 48/184 kB | 47/58 kB | 62/208 kBProgress (5): 51/60 kB | 22 kB | 48/184 kB | 47/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 48/184 kB | 48/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 48/184 kB | 50/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 48/184 kB | 51/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 48/184 kB | 52/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 49/184 kB | 52/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 51/184 kB | 52/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 52/184 kB | 52/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 53/184 kB | 52/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 55/184 kB | 52/58 kB | 63/208 kBProgress (5): 51/60 kB | 22 kB | 55/184 kB | 52/58 kB | 64/208 kBProgress (5): 51/60 kB | 22 kB | 55/184 kB | 54/58 kB | 64/208 kBProgress (5): 51/60 kB | 22 kB | 55/184 kB | 55/58 kB | 64/208 kBProgress (5): 51/60 kB | 22 kB | 55/184 kB | 55/58 kB | 66/208 kBProgress (5): 51/60 kB | 22 kB | 55/184 kB | 55/58 kB | 67/208 kBProgress (5): 52/60 kB | 22 kB | 55/184 kB | 55/58 kB | 67/208 kBProgress (5): 53/60 kB | 22 kB | 55/184 kB | 55/58 kB | 67/208 kBProgress (5): 53/60 kB | 22 kB | 55/184 kB | 55/58 kB | 69/208 kBProgress (5): 55/60 kB | 22 kB | 55/184 kB | 55/58 kB | 69/208 kBProgress (5): 56/60 kB | 22 kB | 55/184 kB | 55/58 kB | 69/208 kBProgress (5): 56/60 kB | 22 kB | 56/184 kB | 55/58 kB | 69/208 kBProgress (5): 58/60 kB | 22 kB | 56/184 kB | 55/58 kB | 69/208 kBProgress (5): 58/60 kB | 22 kB | 58/184 kB | 55/58 kB | 69/208 kBProgress (5): 58/60 kB | 22 kB | 58/184 kB | 55/58 kB | 70/208 kBProgress (5): 58/60 kB | 22 kB | 58/184 kB | 55/58 kB | 71/208 kBProgress (5): 58/60 kB | 22 kB | 58/184 kB | 55/58 kB | 73/208 kBProgress (5): 59/60 kB | 22 kB | 58/184 kB | 55/58 kB | 73/208 kBProgress (5): 59/60 kB | 22 kB | 58/184 kB | 55/58 kB | 74/208 kBProgress (5): 60/60 kB | 22 kB | 58/184 kB | 55/58 kB | 74/208 kBProgress (5): 60 kB | 22 kB | 58/184 kB | 55/58 kB | 74/208 kB   Progress (5): 60 kB | 22 kB | 58/184 kB | 57/58 kB | 74/208 kBProgress (5): 60 kB | 22 kB | 58/184 kB | 58/58 kB | 74/208 kBProgress (5): 60 kB | 22 kB | 58/184 kB | 58 kB | 74/208 kB   Progress (5): 60 kB | 22 kB | 59/184 kB | 58 kB | 74/208 kBProgress (5): 60 kB | 22 kB | 60/184 kB | 58 kB | 74/208 kBProgress (5): 60 kB | 22 kB | 62/184 kB | 58 kB | 74/208 kBProgress (5): 60 kB | 22 kB | 63/184 kB | 58 kB | 74/208 kBProgress (5): 60 kB | 22 kB | 64/184 kB | 58 kB | 74/208 kBProgress (5): 60 kB | 22 kB | 66/184 kB | 58 kB | 74/208 kBProgress (5): 60 kB | 22 kB | 66/184 kB | 58 kB | 75/208 kBProgress (5): 60 kB | 22 kB | 66/184 kB | 58 kB | 77/208 kBProgress (5): 60 kB | 22 kB | 66/184 kB | 58 kB | 78/208 kBProgress (5): 60 kB | 22 kB | 66/184 kB | 58 kB | 80/208 kBProgress (5): 60 kB | 22 kB | 66/184 kB | 58 kB | 81/208 kBProgress (5): 60 kB | 22 kB | 66/184 kB | 58 kB | 82/208 kBProgress (5): 60 kB | 22 kB | 66/184 kB | 58 kB | 84/208 kBProgress (5): 60 kB | 22 kB | 66/184 kB | 58 kB | 85/208 kBProgress (5): 60 kB | 22 kB | 67/184 kB | 58 kB | 85/208 kBProgress (5): 60 kB | 22 kB | 69/184 kB | 58 kB | 85/208 kBProgress (5): 60 kB | 22 kB | 69/184 kB | 58 kB | 86/208 kBProgress (5): 60 kB | 22 kB | 69/184 kB | 58 kB | 88/208 kBProgress (5): 60 kB | 22 kB | 69/184 kB | 58 kB | 89/208 kBProgress (5): 60 kB | 22 kB | 69/184 kB | 58 kB | 90/208 kBProgress (5): 60 kB | 22 kB | 69/184 kB | 58 kB | 92/208 kBProgress (5): 60 kB | 22 kB | 69/184 kB | 58 kB | 93/208 kBProgress (5): 60 kB | 22 kB | 70/184 kB | 58 kB | 93/208 kB                                                           Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar (22 kB at 25 kB/s)
+Progress (4): 60 kB | 71/184 kB | 58 kB | 93/208 kBProgress (4): 60 kB | 71/184 kB | 58 kB | 95/208 kBProgress (4): 60 kB | 73/184 kB | 58 kB | 95/208 kBProgress (4): 60 kB | 74/184 kB | 58 kB | 95/208 kBProgress (4): 60 kB | 74/184 kB | 58 kB | 96/208 kBProgress (4): 60 kB | 74/184 kB | 58 kB | 97/208 kBProgress (4): 60 kB | 74/184 kB | 58 kB | 99/208 kBProgress (4): 60 kB | 74/184 kB | 58 kB | 100/208 kBProgress (4): 60 kB | 75/184 kB | 58 kB | 100/208 kBProgress (4): 60 kB | 75/184 kB | 58 kB | 101/208 kBProgress (4): 60 kB | 75/184 kB | 58 kB | 103/208 kBProgress (4): 60 kB | 77/184 kB | 58 kB | 103/208 kBProgress (4): 60 kB | 77/184 kB | 58 kB | 104/208 kBProgress (4): 60 kB | 77/184 kB | 58 kB | 106/208 kBProgress (4): 60 kB | 77/184 kB | 58 kB | 107/208 kBProgress (4): 60 kB | 77/184 kB | 58 kB | 108/208 kBProgress (4): 60 kB | 77/184 kB | 58 kB | 110/208 kBProgress (4): 60 kB | 77/184 kB | 58 kB | 111/208 kBProgress (4): 60 kB | 78/184 kB | 58 kB | 111/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 111/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 112/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 114/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 115/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 117/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 118/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 119/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 121/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 122/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 123/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 125/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 126/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 128/208 kBProgress (4): 60 kB | 80/184 kB | 58 kB | 129/208 kBProgress (4): 60 kB | 81/184 kB | 58 kB | 129/208 kBProgress (4): 60 kB | 81/184 kB | 58 kB | 130/208 kBProgress (4): 60 kB | 82/184 kB | 58 kB | 130/208 kBProgress (4): 60 kB | 82/184 kB | 58 kB | 132/208 kBProgress (4): 60 kB | 82/184 kB | 58 kB | 133/208 kBProgress (4): 60 kB | 82/184 kB | 58 kB | 134/208 kBProgress (4): 60 kB | 82/184 kB | 58 kB | 136/208 kBProgress (4): 60 kB | 82/184 kB | 58 kB | 137/208 kBProgress (4): 60 kB | 82/184 kB | 58 kB | 138/208 kBProgress (4): 60 kB | 84/184 kB | 58 kB | 138/208 kBProgress (4): 60 kB | 85/184 kB | 58 kB | 138/208 kBProgress (4): 60 kB | 85/184 kB | 58 kB | 140/208 kBProgress (4): 60 kB | 85/184 kB | 58 kB | 141/208 kBProgress (4): 60 kB | 85/184 kB | 58 kB | 143/208 kBProgress (4): 60 kB | 85/184 kB | 58 kB | 144/208 kBProgress (4): 60 kB | 86/184 kB | 58 kB | 144/208 kBProgress (4): 60 kB | 88/184 kB | 58 kB | 144/208 kBProgress (4): 60 kB | 88/184 kB | 58 kB | 145/208 kBProgress (4): 60 kB | 88/184 kB | 58 kB | 147/208 kBProgress (4): 60 kB | 88/184 kB | 58 kB | 148/208 kBProgress (4): 60 kB | 88/184 kB | 58 kB | 149/208 kBProgress (4): 60 kB | 89/184 kB | 58 kB | 149/208 kBProgress (4): 60 kB | 90/184 kB | 58 kB | 149/208 kBProgress (4): 60 kB | 92/184 kB | 58 kB | 149/208 kBProgress (4): 60 kB | 92/184 kB | 58 kB | 151/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 151/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 152/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 154/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 155/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 156/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 158/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 159/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 160/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 162/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 163/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 165/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 166/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 167/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 169/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 170/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 171/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 173/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 174/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 175/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 177/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 178/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 180/208 kBProgress (4): 60 kB | 93/184 kB | 58 kB | 181/208 kBProgress (4): 60 kB | 95/184 kB | 58 kB | 181/208 kBProgress (4): 60 kB | 95/184 kB | 58 kB | 182/208 kBProgress (4): 60 kB | 96/184 kB | 58 kB | 182/208 kBProgress (4): 60 kB | 96/184 kB | 58 kB | 184/208 kBProgress (4): 60 kB | 97/184 kB | 58 kB | 184/208 kBProgress (4): 60 kB | 99/184 kB | 58 kB | 184/208 kBProgress (4): 60 kB | 99/184 kB | 58 kB | 185/208 kBProgress (4): 60 kB | 99/184 kB | 58 kB | 186/208 kBProgress (4): 60 kB | 99/184 kB | 58 kB | 188/208 kBProgress (4): 60 kB | 100/184 kB | 58 kB | 188/208 kBProgress (4): 60 kB | 101/184 kB | 58 kB | 188/208 kBProgress (4): 60 kB | 101/184 kB | 58 kB | 189/208 kBProgress (4): 60 kB | 101/184 kB | 58 kB | 191/208 kBProgress (4): 60 kB | 101/184 kB | 58 kB | 192/208 kBProgress (4): 60 kB | 101/184 kB | 58 kB | 193/208 kBProgress (4): 60 kB | 103/184 kB | 58 kB | 193/208 kBProgress (4): 60 kB | 104/184 kB | 58 kB | 193/208 kBProgress (4): 60 kB | 104/184 kB | 58 kB | 195/208 kBProgress (4): 60 kB | 104/184 kB | 58 kB | 196/208 kBProgress (4): 60 kB | 104/184 kB | 58 kB | 197/208 kBProgress (4): 60 kB | 104/184 kB | 58 kB | 199/208 kBProgress (4): 60 kB | 106/184 kB | 58 kB | 199/208 kBProgress (4): 60 kB | 107/184 kB | 58 kB | 199/208 kBProgress (4): 60 kB | 107/184 kB | 58 kB | 200/208 kBProgress (4): 60 kB | 108/184 kB | 58 kB | 200/208 kBProgress (4): 60 kB | 110/184 kB | 58 kB | 200/208 kBProgress (4): 60 kB | 110/184 kB | 58 kB | 202/208 kBProgress (4): 60 kB | 110/184 kB | 58 kB | 203/208 kBProgress (4): 60 kB | 111/184 kB | 58 kB | 203/208 kBProgress (4): 60 kB | 112/184 kB | 58 kB | 203/208 kBProgress (4): 60 kB | 112/184 kB | 58 kB | 204/208 kBProgress (4): 60 kB | 112/184 kB | 58 kB | 206/208 kBProgress (4): 60 kB | 112/184 kB | 58 kB | 207/208 kBProgress (4): 60 kB | 112/184 kB | 58 kB | 208 kB    Progress (4): 60 kB | 114/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 115/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 117/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 118/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 119/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 121/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 122/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 123/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 125/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 126/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 128/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 129/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 130/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 132/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 133/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 134/184 kB | 58 kB | 208 kBProgress (4): 60 kB | 136/184 kB | 58 kB | 208 kB                                                 Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar (60 kB at 60 kB/s)
+Progress (3): 137/184 kB | 58 kB | 208 kBProgress (3): 138/184 kB | 58 kB | 208 kBProgress (3): 140/184 kB | 58 kB | 208 kBProgress (3): 141/184 kB | 58 kB | 208 kB                                         Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar (58 kB at 59 kB/s)
+Progress (2): 143/184 kB | 208 kBProgress (2): 144/184 kB | 208 kBProgress (2): 145/184 kB | 208 kBProgress (2): 147/184 kB | 208 kBProgress (2): 148/184 kB | 208 kBProgress (2): 149/184 kB | 208 kBProgress (2): 151/184 kB | 208 kBProgress (2): 152/184 kB | 208 kBProgress (2): 154/184 kB | 208 kBProgress (2): 155/184 kB | 208 kBProgress (2): 156/184 kB | 208 kBProgress (2): 158/184 kB | 208 kBProgress (2): 159/184 kB | 208 kBProgress (2): 160/184 kB | 208 kBProgress (2): 162/184 kB | 208 kBProgress (2): 163/184 kB | 208 kBProgress (2): 165/184 kB | 208 kBProgress (2): 166/184 kB | 208 kBProgress (2): 167/184 kB | 208 kBProgress (2): 169/184 kB | 208 kBProgress (2): 170/184 kB | 208 kBProgress (2): 171/184 kB | 208 kBProgress (2): 173/184 kB | 208 kBProgress (2): 174/184 kB | 208 kBProgress (2): 175/184 kB | 208 kBProgress (2): 177/184 kB | 208 kBProgress (2): 178/184 kB | 208 kBProgress (2): 180/184 kB | 208 kBProgress (2): 181/184 kB | 208 kBProgress (2): 182/184 kB | 208 kBProgress (2): 184/184 kB | 208 kBProgress (2): 184 kB | 208 kB                                 Downloaded: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar (208 kB at 186 kB/s)
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar (184 kB at 154 kB/s)
+[INFO] Building jar: /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target/berlin-clock-1.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ berlin-clock ---
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+Progress (1): 1.4/2.5 kBProgress (1): 2.5 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (2.5 kB at 8.0 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+Progress (1): 1.4/19 kBProgress (1): 2.7/19 kBProgress (1): 4.1/19 kBProgress (1): 5.5/19 kBProgress (1): 6.9/19 kBProgress (1): 8.2/19 kBProgress (1): 9.6/19 kBProgress (1): 11/19 kB Progress (1): 12/19 kBProgress (1): 14/19 kBProgress (1): 15/19 kBProgress (1): 16/19 kBProgress (1): 18/19 kBProgress (1): 19 kB                      Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 kB at 59 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+Progress (1): 1.1 kB                    Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (1.1 kB at 3.4 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+Progress (1): 4.1/5.0 kBProgress (1): 5.0 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5.0 kB at 16 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+Progress (1): 4.1/7.3 kBProgress (1): 7.3 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (7.3 kB at 23 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12 kB    Progress (2): 12 kB | 4.1/230 kBProgress (2): 12 kB | 8.2/230 kBProgress (2): 12 kB | 12/230 kB Progress (2): 12 kB | 16/230 kBProgress (2): 12 kB | 20/230 kBProgress (2): 12 kB | 25/230 kBProgress (2): 12 kB | 29/230 kBProgress (2): 12 kB | 33/230 kBProgress (2): 12 kB | 37/230 kBProgress (2): 12 kB | 41/230 kBProgress (2): 12 kB | 45/230 kBProgress (2): 12 kB | 49/230 kBProgress (2): 12 kB | 53/230 kBProgress (2): 12 kB | 57/230 kBProgress (2): 12 kB | 61/230 kBProgress (2): 12 kB | 66/230 kBProgress (2): 12 kB | 70/230 kBProgress (2): 12 kB | 74/230 kBProgress (2): 12 kB | 78/230 kBProgress (2): 12 kB | 82/230 kBProgress (2): 12 kB | 86/230 kBProgress (2): 12 kB | 90/230 kBProgress (2): 12 kB | 94/230 kBProgress (2): 12 kB | 98/230 kBProgress (2): 12 kB | 102/230 kBProgress (2): 12 kB | 106/230 kBProgress (2): 12 kB | 111/230 kBProgress (2): 12 kB | 115/230 kBProgress (2): 12 kB | 119/230 kBProgress (2): 12 kB | 123/230 kBProgress (2): 12 kB | 127/230 kBProgress (2): 12 kB | 131/230 kB                                Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 kB at 36 kB/s)
+Progress (1): 135/230 kBProgress (1): 139/230 kBProgress (1): 143/230 kBProgress (1): 147/230 kBProgress (1): 152/230 kBProgress (1): 156/230 kBProgress (1): 160/230 kBProgress (1): 164/230 kBProgress (1): 168/230 kBProgress (1): 172/230 kBProgress (1): 176/230 kBProgress (1): 180/230 kBProgress (1): 184/230 kBProgress (1): 188/230 kBProgress (1): 193/230 kBProgress (1): 197/230 kBProgress (1): 201/230 kBProgress (1): 205/230 kBProgress (1): 209/230 kBProgress (1): 213/230 kBProgress (1): 217/230 kBProgress (1): 221/230 kBProgress (1): 225/230 kBProgress (1): 229/230 kBProgress (1): 230 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (230 kB at 454 kB/s)
+[INFO] Installing /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/target/berlin-clock-1.1-SNAPSHOT.jar to /var/jenkins_home/.m2/repository/ken/berlin-clock/1.1-SNAPSHOT/berlin-clock-1.1-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/jobs/pipeline-script-from-scm/workspace/pom.xml to /var/jenkins_home/.m2/repository/ken/berlin-clock/1.1-SNAPSHOT/berlin-clock-1.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ berlin-clock ---
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+Progress (1): 4.1/251 kBProgress (1): 8.2/251 kBProgress (1): 12/251 kB Progress (1): 16/251 kBProgress (1): 20/251 kBProgress (1): 25/251 kBProgress (1): 29/251 kBProgress (1): 33/251 kBProgress (1): 37/251 kBProgress (1): 41/251 kBProgress (1): 45/251 kBProgress (1): 49/251 kBProgress (1): 53/251 kBProgress (1): 57/251 kBProgress (1): 61/251 kBProgress (1): 66/251 kBProgress (1): 70/251 kBProgress (1): 74/251 kBProgress (1): 78/251 kBProgress (1): 82/251 kBProgress (1): 86/251 kBProgress (1): 90/251 kBProgress (1): 94/251 kBProgress (1): 98/251 kBProgress (1): 102/251 kBProgress (1): 106/251 kBProgress (1): 111/251 kBProgress (1): 115/251 kBProgress (1): 119/251 kBProgress (1): 123/251 kBProgress (1): 127/251 kBProgress (1): 131/251 kBProgress (1): 135/251 kBProgress (1): 139/251 kBProgress (1): 143/251 kBProgress (1): 147/251 kBProgress (1): 152/251 kBProgress (1): 156/251 kBProgress (1): 160/251 kBProgress (1): 164/251 kBProgress (1): 168/251 kBProgress (1): 172/251 kBProgress (1): 176/251 kBProgress (1): 180/251 kBProgress (1): 184/251 kBProgress (1): 188/251 kBProgress (1): 193/251 kBProgress (1): 197/251 kBProgress (1): 201/251 kBProgress (1): 205/251 kBProgress (1): 209/251 kBProgress (1): 213/251 kBProgress (1): 217/251 kBProgress (1): 219/251 kBProgress (1): 223/251 kBProgress (1): 227/251 kBProgress (1): 231/251 kBProgress (1): 235/251 kBProgress (1): 239/251 kBProgress (1): 243/251 kBProgress (1): 247/251 kBProgress (1): 251 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (251 kB at 663 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.598 s
+[INFO] Finished at: 2020-01-09T23:26:40Z
+[INFO] Final Memory: 15M/142M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project berlin-clock: Deployment failed: repository element was not specified in the POM inside distributionManagement element or in -DaltDeploymentRepository=id::layout::url parameter -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[8mha:////4GppZO+pnsUYLFvj+FS0TMwtlSft/e1Kav8kHB0bJ9jHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bqph/Ve+AAAA[0m[Pipeline] }
+Deleting 1 temporary files
+[8mha:////4OtEW330k6ldFzwYTxWINIxamteaqxmVpLqfYhxPl7YTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGsJ8UCvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4KI00bQ9DpZrbH3lptZI+NTusGq7LBUir/+n0/dfuWbiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKUu/2ntm/vpZSEvgAAAA==[0m[Pipeline] }
+[8mha:////4J8ox/Xtk4RTzfCuilVPVdREmqD1Bp32M1ki16ZaRnu9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHwJ8HWvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Ofxvc/StyFstKR/d4p2FgeqiiCJuvVFUSbYdkpgMeFUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgdIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFHyFlHvgAAAA==[0m[Pipeline] }
+[8mha:////4GoWAckADahLmfV5yOZBx/fC+Sx0wKqzkwNTQeJ8t5vfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrl2+w9YSgwVvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NbVC5jXz6GWDmURtZ+mscroSHNkvkn4alf76rSSIjYnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRKWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wFpW6/CvgAAAA==[0m[Pipeline] }
+[8mha:////4GnFOCBewmJxLo74brqTY60rJSy2KYxP8rlT5eAZmAQIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w9auPR+vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4ElxG6jZog5fe0uKpqk6JDAsug2bjkoJS2YAZRPPtVQ5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSIgGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w+369s/vgAAAA==[0m[Pipeline] }
+[8mha:////4HZpg/f8d/EthefD8AbOZEzogitbJ9bImGux2TuTp/90AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBTQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtdu+wGECICDvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JZBcWVFCrTwYa2opkUGbILITZ5JvbcgfK1GbR3xZIbRAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0Do1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Ane4AQL0AAAA=[0m[Pipeline] }
+[8mha:////4HoOLcZJ6ZatcTJ+t1ct5hrVtxZpYn/gw+bHPYEp1ECLAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AI5SBOO9AAAA[0m[Pipeline] // node
+[8mha:////4PeQAy0x2DQGpWGO+gfae7TUgsL2fFa4XBqz/aT5oY3PAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A8n1Uxa9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
