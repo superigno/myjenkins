@@ -40,12 +40,12 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='9'/>9</td>
-<td class="hits">109</td>
+<td class="hits">108</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.hours&nbsp;=&nbsp;hours;</td>
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='10'/>10</td>
-<td class="hits">109</td>
+<td class="hits">108</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.minutes&nbsp;=&nbsp;minutes;</td>
 </tr>
 <tr class="coverFull">

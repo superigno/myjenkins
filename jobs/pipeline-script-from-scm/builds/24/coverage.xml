@@ -1,0 +1,611 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.9313725490196079" branch-rate="0.85" lines-covered="95" lines-valid="102" branches-covered="17" branches-valid="20" complexity="1.263157894736842" version="2.1.1" timestamp="1579043454242">
+	<sources>
+		<source>--source</source>
+		<source>/var/jenkins_home/jobs/pipeline-script-from-scm/workspace/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="ken.kata.techtest" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="ken.kata.techtest.BerlinClock" filename="ken/kata/techtest/BerlinClock.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.BerlinClockImpl" filename="ken/kata/techtest/BerlinClockImpl.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lken/kata/techtest/parser/Parser;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="9" branch="false"/>
+								<line number="16" hits="9" branch="false"/>
+								<line number="17" hits="9" branch="false"/>
+								<line number="19" hits="9" branch="false"/>
+								<line number="20" hits="9" branch="false"/>
+								<line number="21" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="displayTime" signature="(Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="108" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="27" hits="107" branch="false"/>
+								<line number="29" hits="214" branch="false"/>
+								<line number="30" hits="107" branch="false"/>
+								<line number="31" hits="106" branch="false"/>
+								<line number="32" hits="106" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="9" branch="false"/>
+						<line number="16" hits="9" branch="false"/>
+						<line number="17" hits="9" branch="false"/>
+						<line number="19" hits="9" branch="false"/>
+						<line number="20" hits="9" branch="false"/>
+						<line number="21" hits="9" branch="false"/>
+						<line number="25" hits="108" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="27" hits="107" branch="false"/>
+						<line number="29" hits="214" branch="false"/>
+						<line number="30" hits="107" branch="false"/>
+						<line number="31" hits="106" branch="false"/>
+						<line number="32" hits="106" branch="false"/>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.Time" filename="ken/kata/techtest/Time.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(III)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="109" branch="false"/>
+								<line number="9" hits="109" branch="false"/>
+								<line number="10" hits="109" branch="false"/>
+								<line number="11" hits="109" branch="false"/>
+								<line number="12" hits="109" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="109" branch="false"/>
+						<line number="9" hits="109" branch="false"/>
+						<line number="10" hits="109" branch="false"/>
+						<line number="11" hits="109" branch="false"/>
+						<line number="12" hits="109" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="ken.kata.techtest.clock" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="ken.kata.techtest.clock.AbstractTimeUnit" filename="ken/kata/techtest/clock/AbstractTimeUnit.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="40" branch="false"/>
+							</lines>
+						</method>
+						<method name="display" signature="(I)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="333" branch="false"/>
+								<line number="19" hits="659" branch="false"/>
+								<line number="21" hits="330" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$display$0" signature="(ILken/kata/techtest/clock/TimeUnit;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="879" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="40" branch="false"/>
+						<line number="17" hits="333" branch="false"/>
+						<line number="19" hits="659" branch="false"/>
+						<line number="20" hits="879" branch="false"/>
+						<line number="21" hits="330" branch="false"/>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.clock.LampsOnFunction" filename="ken/kata/techtest/clock/LampsOnFunction.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.clock.TimeUnit" filename="ken/kata/techtest/clock/TimeUnit.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="ken.kata.techtest.clock.hours" line-rate="0.9333333333333333" branch-rate="0.75" complexity="0.0">
+			<classes>
+				<class name="ken.kata.techtest.clock.hours.Hours" filename="ken/kata/techtest/clock/hours/Hours.java" line-rate="1.0" branch-rate="0.75" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="14" branch="false"/>
+								<line number="9" hits="14" branch="false"/>
+								<line number="10" hits="14" branch="false"/>
+								<line number="13" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$new$0" signature="(Ljava/lang/Integer;)Z" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="11" hits="111" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="14" branch="false"/>
+						<line number="9" hits="14" branch="false"/>
+						<line number="10" hits="14" branch="false"/>
+						<line number="11" hits="111" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="13" hits="14" branch="false"/>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.clock.hours.HoursFactory" filename="ken/kata/techtest/clock/hours/HoursFactory.java" line-rate="0.9" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="12" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="createBottomPart" signature="()Lken/kata/techtest/clock/TimeUnitPart;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="29" hits="34" branch="false"/>
+								<line number="30" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="createParts" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="28" branch="false"/>
+								<line number="15" hits="14" branch="false"/>
+								<line number="16" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="createTopPart" signature="()Lken/kata/techtest/clock/TimeUnitPart;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="34" branch="false"/>
+								<line number="21" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$createBottomPart$1" signature="(I)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="116" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$createTopPart$0" signature="(I)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="116" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="0" branch="false"/>
+						<line number="14" hits="28" branch="false"/>
+						<line number="15" hits="14" branch="false"/>
+						<line number="16" hits="14" branch="false"/>
+						<line number="20" hits="34" branch="false"/>
+						<line number="21" hits="17" branch="false"/>
+						<line number="25" hits="116" branch="false"/>
+						<line number="29" hits="34" branch="false"/>
+						<line number="30" hits="17" branch="false"/>
+						<line number="34" hits="116" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="ken.kata.techtest.clock.minutes" line-rate="0.9333333333333333" branch-rate="0.75" complexity="0.0">
+			<classes>
+				<class name="ken.kata.techtest.clock.minutes.Minutes" filename="ken/kata/techtest/clock/minutes/Minutes.java" line-rate="1.0" branch-rate="0.75" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="14" branch="false"/>
+								<line number="9" hits="14" branch="false"/>
+								<line number="10" hits="14" branch="false"/>
+								<line number="13" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$new$0" signature="(Ljava/lang/Integer;)Z" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="11" hits="112" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="14" branch="false"/>
+						<line number="9" hits="14" branch="false"/>
+						<line number="10" hits="14" branch="false"/>
+						<line number="11" hits="112" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="13" hits="14" branch="false"/>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.clock.minutes.MinutesFactory" filename="ken/kata/techtest/clock/minutes/MinutesFactory.java" line-rate="0.9" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="12" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="createBottomPart" signature="()Lken/kata/techtest/clock/TimeUnitPart;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="36" hits="36" branch="false"/>
+								<line number="37" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="createParts" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="28" branch="false"/>
+								<line number="15" hits="14" branch="false"/>
+								<line number="16" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="createTopPart" signature="()Lken/kata/techtest/clock/TimeUnitPart;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="36" branch="false"/>
+								<line number="21" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$createBottomPart$1" signature="(I)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="119" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$createTopPart$0" signature="(I)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="32" hits="119" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="0" branch="false"/>
+						<line number="14" hits="28" branch="false"/>
+						<line number="15" hits="14" branch="false"/>
+						<line number="16" hits="14" branch="false"/>
+						<line number="20" hits="36" branch="false"/>
+						<line number="21" hits="18" branch="false"/>
+						<line number="32" hits="119" branch="false"/>
+						<line number="36" hits="36" branch="false"/>
+						<line number="37" hits="18" branch="false"/>
+						<line number="41" hits="119" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="ken.kata.techtest.clock.seconds" line-rate="0.9" branch-rate="0.75" complexity="0.0">
+			<classes>
+				<class name="ken.kata.techtest.clock.seconds.Seconds" filename="ken/kata/techtest/clock/seconds/Seconds.java" line-rate="1.0" branch-rate="0.75" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="12" branch="false"/>
+								<line number="9" hits="12" branch="false"/>
+								<line number="10" hits="12" branch="false"/>
+								<line number="13" hits="12" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$new$0" signature="(Ljava/lang/Integer;)Z" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="11" hits="110" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="12" branch="false"/>
+						<line number="9" hits="12" branch="false"/>
+						<line number="10" hits="12" branch="false"/>
+						<line number="11" hits="110" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="13" hits="12" branch="false"/>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.clock.seconds.SecondsFactory" filename="ken/kata/techtest/clock/seconds/SecondsFactory.java" line-rate="0.8" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="createPart" signature="()Lken/kata/techtest/clock/TimeUnitPart;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="19" hits="28" branch="false"/>
+								<line number="20" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="createParts" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="12" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$createPart$0" signature="(I)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="112" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="0" branch="false"/>
+						<line number="15" hits="12" branch="false"/>
+						<line number="19" hits="28" branch="false"/>
+						<line number="20" hits="14" branch="false"/>
+						<line number="21" hits="112" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="ken.kata.techtest.parser" line-rate="0.75" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="ken.kata.techtest.parser.BerlinClockParser" filename="ken/kata/techtest/parser/BerlinClockParser.java" line-rate="0.75" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="0" branch="false"/>
+								<line number="21" hits="0" branch="false"/>
+								<line number="22" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="16" hits="11" branch="false"/>
+								<line number="17" hits="11" branch="false"/>
+								<line number="18" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="parse" signature="(Ljava/lang/String;)Lken/kata/techtest/Time;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="109" branch="false"/>
+								<line number="28" hits="109" branch="false"/>
+								<line number="30" hits="216" branch="false"/>
+								<line number="31" hits="108" branch="false"/>
+								<line number="32" hits="108" branch="false"/>
+								<line number="33" hits="108" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="16" hits="11" branch="false"/>
+						<line number="17" hits="11" branch="false"/>
+						<line number="18" hits="11" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+						<line number="26" hits="109" branch="false"/>
+						<line number="28" hits="109" branch="false"/>
+						<line number="30" hits="216" branch="false"/>
+						<line number="31" hits="108" branch="false"/>
+						<line number="32" hits="108" branch="false"/>
+						<line number="33" hits="108" branch="false"/>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.parser.Parser" filename="ken/kata/techtest/parser/Parser.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="ken.kata.techtest.validator" line-rate="0.9" branch-rate="1.0" complexity="2.3333333333333335">
+			<classes>
+				<class name="ken.kata.techtest.validator.Precondition" filename="ken/kata/techtest/validator/Precondition.java" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/util/function/Predicate;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="40" branch="false"/>
+								<line number="10" hits="40" branch="false"/>
+								<line number="11" hits="40" branch="false"/>
+								<line number="12" hits="40" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="333" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="16" hits="3" branch="false"/>
+								<line number="18" hits="330" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="40" branch="false"/>
+						<line number="10" hits="40" branch="false"/>
+						<line number="11" hits="40" branch="false"/>
+						<line number="12" hits="40" branch="false"/>
+						<line number="15" hits="333" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="16" hits="3" branch="false"/>
+						<line number="18" hits="330" branch="false"/>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.validator.Preconditions" filename="ken/kata/techtest/validator/Preconditions.java" line-rate="0.6666666666666666" branch-rate="1.0" complexity="3.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(ZLjava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="5" hits="217" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="6" hits="159" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="0" branch="false"/>
+						<line number="5" hits="217" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="6" hits="159" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="ken.kata.techtest.view" line-rate="1.0" branch-rate="1.0" complexity="1.1666666666666667">
+			<classes>
+				<class name="ken.kata.techtest.view.Color" filename="ken/kata/techtest/view/Color.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="1" branch="false"/>
+								<line number="4" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="2" branch="false"/>
+								<line number="9" hits="2" branch="false"/>
+								<line number="10" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lken/kata/techtest/view/Color;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lken/kata/techtest/view/Color;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="1" branch="false"/>
+						<line number="4" hits="1" branch="false"/>
+						<line number="8" hits="2" branch="false"/>
+						<line number="9" hits="2" branch="false"/>
+						<line number="10" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.view.Lamp" filename="ken/kata/techtest/view/Lamp.java" line-rate="1.0" branch-rate="1.0" complexity="1.25">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lken/kata/techtest/view/Color;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="5" hits="3166" branch="false"/>
+								<line number="7" hits="3166" branch="false"/>
+								<line number="8" hits="3167" branch="false"/>
+								<line number="9" hits="3167" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lken/kata/techtest/view/Lamp;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="2745" branch="false"/>
+							</lines>
+						</method>
+						<method name="switchOn" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="12" hits="1162" branch="false"/>
+								<line number="13" hits="1162" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="2747" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="5" hits="3166" branch="false"/>
+						<line number="7" hits="3166" branch="false"/>
+						<line number="8" hits="3167" branch="false"/>
+						<line number="9" hits="3167" branch="false"/>
+						<line number="12" hits="1162" branch="false"/>
+						<line number="13" hits="1162" branch="false"/>
+						<line number="17" hits="2747" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="22" hits="2745" branch="false"/>
+					</lines>
+				</class>
+				<class name="ken.kata.techtest.view.Switch" filename="ken/kata/techtest/view/Switch.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="1" branch="false"/>
+								<line number="4" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="2" branch="false"/>
+								<line number="9" hits="2" branch="false"/>
+								<line number="10" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lken/kata/techtest/view/Switch;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lken/kata/techtest/view/Switch;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="1" branch="false"/>
+						<line number="4" hits="1" branch="false"/>
+						<line number="8" hits="2" branch="false"/>
+						<line number="9" hits="2" branch="false"/>
+						<line number="10" hits="2" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

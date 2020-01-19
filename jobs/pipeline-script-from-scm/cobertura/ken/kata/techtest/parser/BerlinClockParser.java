@@ -145,7 +145,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='30'/>30</td>
-<td class="hits">216</td>
+<td class="hits">215</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;new&nbsp;Time(</td>
 </tr>
 <tr class="coverFull">
@@ -155,7 +155,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='32'/>32</td>
-<td class="hits">108</td>
+<td class="hits">107</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;parseInt(matcher.group(2)),</td>
 </tr>
 <tr class="coverFull">

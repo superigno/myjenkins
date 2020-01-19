@@ -74,4 +74,3 @@ ldap
 email-ext
 cobertura
 config-file-provider
-

@@ -130,7 +130,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='27'/>27</td>
-<td class="hits">106</td>
+<td class="hits">107</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time&nbsp;time&nbsp;=&nbsp;parser.parse(input);</td>
 </tr>
 <tr class="noCover">
@@ -140,7 +140,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='29'/>29</td>
-<td class="hits">213</td>
+<td class="hits">214</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;new&nbsp;StringBuilder(MAX_SIZE).</td>
 </tr>
 <tr class="coverFull">
@@ -150,7 +150,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='31'/>31</td>
-<td class="hits">107</td>
+<td class="hits">105</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;append(hours.display(time.hours)).append(TIME_UNIT_DELIMITER).</td>
 </tr>
 <tr class="coverFull">
