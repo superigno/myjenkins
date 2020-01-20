@@ -135,7 +135,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='28'/>28</td>
-<td class="hits">109</td>
+<td class="hits">108</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preconditions.validate(matcher.find(),&nbsp;"Input&nbsp;string&nbsp;does&nbsp;not&nbsp;comply&nbsp;to&nbsp;hh::mm:ss");</td>
 </tr>
 <tr class="noCover">
@@ -145,7 +145,7 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='30'/>30</td>
-<td class="hits">215</td>
+<td class="hits">216</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;new&nbsp;Time(</td>
 </tr>
 <tr class="coverFull">

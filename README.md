@@ -23,9 +23,9 @@ Or download and run sonarqube from another server and start
 
    b. Run using docker-compose (using docker-compose.yml):
    
-    - Rebuild image using `docker-compose build -no-cache`
+    - Rebuild image using `docker-compose build --no-cache`
     - Run using `docker-compose up`
 
 
 
-Reference: https://dzone.com/articles/dockerizing-jenkins-2-setup-and-using-it-along-wit
+Reference: https://dzone.com/articles/securing-password-with-docker-compose-docker-secre
