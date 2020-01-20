@@ -25,6 +25,8 @@ Or download and run sonarqube from another server and start
    
     - Rebuild image using `docker-compose build -no-cache`
     - Run using `docker-compose up`
+Or
+    - Run `docker-compose up --build`
 
 
 
