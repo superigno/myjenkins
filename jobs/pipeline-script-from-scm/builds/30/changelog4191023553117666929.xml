@@ -1,0 +1,46 @@
+commit f2405b9e0ddfe965b001dcb02703b2f269ec2287
+tree 7a4377d5dada244603e8c542960de0e89dfd8af7
+parent 565dbb3a67ecaead5ca357399d9e96ad09d6f663
+author superigno <superigno24@gmail.com> 2020-01-20 12:33:16 +1100
+committer superigno <superigno24@gmail.com> 2020-01-20 12:33:16 +1100
+
+    For part3
+
+
+:100644 100755 668f1a31707bb820a18d210879c34289cfe4a742 668f1a31707bb820a18d210879c34289cfe4a742 M	.gitignore
+:100644 100755 94b7d008641c12edd9df6b2c9f20be43d066152e 2cb16a5a624630f5692a234ebec1ce169e88885d M	Jenkinsfile
+:100644 100755 01f6475a83c20c8f78f8b64789c0352b512af142 01f6475a83c20c8f78f8b64789c0352b512af142 M	README.md
+:100644 100755 e35c5bc9358e7d8e5a5314fc14e25fda92adb0a7 e35c5bc9358e7d8e5a5314fc14e25fda92adb0a7 M	pom.xml
+:100644 100755 b8e014d28476c1228b967ae9dacabff5b71d5668 b8e014d28476c1228b967ae9dacabff5b71d5668 M	src/main/java/ken/kata/techtest/BerlinClock.java
+:100644 100755 5607ae8ccf4f157115df131847383a8be4fef63b 5607ae8ccf4f157115df131847383a8be4fef63b M	src/main/java/ken/kata/techtest/BerlinClockImpl.java
+:100644 100755 812a8e85da4502b08a6e7979b2f043cbe343e957 812a8e85da4502b08a6e7979b2f043cbe343e957 M	src/main/java/ken/kata/techtest/Time.java
+:100644 100755 807031214e7ed8a97b739d5ef9f2af3c220eaf6d 807031214e7ed8a97b739d5ef9f2af3c220eaf6d M	src/main/java/ken/kata/techtest/clock/AbstractTimeUnit.java
+:100644 100755 e2bd20046b47ffeb7a2e92c322e4cdd21422c401 e2bd20046b47ffeb7a2e92c322e4cdd21422c401 M	src/main/java/ken/kata/techtest/clock/LampsOnFunction.java
+:100644 100755 422dc7c93b1dd7e95e0f6566678f3fbc51bde944 422dc7c93b1dd7e95e0f6566678f3fbc51bde944 M	src/main/java/ken/kata/techtest/clock/TimeUnit.java
+:100644 100755 a0378c05ae88c64a954f0189be3430a6fd8addd4 a0378c05ae88c64a954f0189be3430a6fd8addd4 M	src/main/java/ken/kata/techtest/clock/TimeUnitPart.java
+:100644 100755 75f652275f50ef97df22b10867c39d1eca88f3b1 75f652275f50ef97df22b10867c39d1eca88f3b1 M	src/main/java/ken/kata/techtest/clock/hours/Hours.java
+:100644 100755 ba848bdd5887b5a407ec0655928a10c6ec2ad344 ba848bdd5887b5a407ec0655928a10c6ec2ad344 M	src/main/java/ken/kata/techtest/clock/hours/HoursFactory.java
+:100644 100755 38ce9b75c7ca76d928c4d5105d5c5e8610fadc37 38ce9b75c7ca76d928c4d5105d5c5e8610fadc37 M	src/main/java/ken/kata/techtest/clock/minutes/Minutes.java
+:100644 100755 80f2b15d20df5244ab833f2a2556e3a193dd5cc6 80f2b15d20df5244ab833f2a2556e3a193dd5cc6 M	src/main/java/ken/kata/techtest/clock/minutes/MinutesFactory.java
+:100644 100755 607402876453ea78e8b9066d40974f9ed18b6495 607402876453ea78e8b9066d40974f9ed18b6495 M	src/main/java/ken/kata/techtest/clock/seconds/Seconds.java
+:100644 100755 5484e14a5abdfc3e078552d1203a79f858ec0cad 5484e14a5abdfc3e078552d1203a79f858ec0cad M	src/main/java/ken/kata/techtest/clock/seconds/SecondsFactory.java
+:100644 100755 153b7715e65485615e581ee5d66a55ad8e94351a 153b7715e65485615e581ee5d66a55ad8e94351a M	src/main/java/ken/kata/techtest/parser/BerlinClockParser.java
+:100644 100755 f0e14b98d2517a33901efc695b7d89cb682feceb f0e14b98d2517a33901efc695b7d89cb682feceb M	src/main/java/ken/kata/techtest/parser/Parser.java
+:100644 100755 44901a64197f2b016d235ae37e06fb7ecdbd1313 44901a64197f2b016d235ae37e06fb7ecdbd1313 M	src/main/java/ken/kata/techtest/validator/Precondition.java
+:100644 100755 f067a3708672509569bdf8f1db125ffff564da32 f067a3708672509569bdf8f1db125ffff564da32 M	src/main/java/ken/kata/techtest/validator/Preconditions.java
+:100644 100755 298f07d32a1d2e46297da995a962e6f41d794078 298f07d32a1d2e46297da995a962e6f41d794078 M	src/main/java/ken/kata/techtest/view/Color.java
+:100644 100755 d1b3c47479267a8f44db36c46ab2f2c0cba96518 d1b3c47479267a8f44db36c46ab2f2c0cba96518 M	src/main/java/ken/kata/techtest/view/Lamp.java
+:100644 100755 17bfa5ba592ced34a7625513f320d3a7614f1097 17bfa5ba592ced34a7625513f320d3a7614f1097 M	src/main/java/ken/kata/techtest/view/Switch.java
+:100644 100755 b2ac9b2b41ede61f58f0fc160d2edddfdc075a54 b2ac9b2b41ede61f58f0fc160d2edddfdc075a54 M	src/test/java/ken/kata/techtest/BerlinClockLoadTest.java
+:100644 100755 f6b556a0e758a203199c40cd5f7b9f518a8b1f25 f6b556a0e758a203199c40cd5f7b9f518a8b1f25 M	src/test/java/ken/kata/techtest/BerlinClockUTest.java
+:100644 100755 f54e2fa96522fabd153a7b3c7316fc1deffe7f43 f54e2fa96522fabd153a7b3c7316fc1deffe7f43 M	src/test/java/ken/kata/techtest/clock/HoursTest.java
+:100644 100755 a5f6480b2b171cf557e8f20896c2a8362f0c8f89 a5f6480b2b171cf557e8f20896c2a8362f0c8f89 M	src/test/java/ken/kata/techtest/clock/HoursTimeUnitBottomPartTest.java
+:100644 100755 e7b49c24beb5792b8a34bcbaab53f7a83edc0ae9 e7b49c24beb5792b8a34bcbaab53f7a83edc0ae9 M	src/test/java/ken/kata/techtest/clock/HoursTimeUnitTopPartTest.java
+:100644 100755 14be7ae722cf4663426f87acfc6682c4d77cf413 14be7ae722cf4663426f87acfc6682c4d77cf413 M	src/test/java/ken/kata/techtest/clock/MinutesTest.java
+:100644 100755 780297d9746f0b66a87ced43369e419bdf3e3f23 780297d9746f0b66a87ced43369e419bdf3e3f23 M	src/test/java/ken/kata/techtest/clock/MinutesTimeUnitBottomPartTest.java
+:100644 100755 dd10bae3c68170ac07f40af7a14a2d3c0400281d dd10bae3c68170ac07f40af7a14a2d3c0400281d M	src/test/java/ken/kata/techtest/clock/MinutesTimeUnitTopPartTest.java
+:100644 100755 f3d0565d09dc7957211a428ea541a1b4f9810db9 f3d0565d09dc7957211a428ea541a1b4f9810db9 M	src/test/java/ken/kata/techtest/clock/SecondsTest.java
+:100644 100755 62956319f8f930bb6052dbc1aa6a6876bcea4e1a 62956319f8f930bb6052dbc1aa6a6876bcea4e1a M	src/test/java/ken/kata/techtest/clock/SecondsTimeUnitPartTest.java
+:100644 100755 db68bc3a3ec2c6cb92be1ce754012871c12a78bb db68bc3a3ec2c6cb92be1ce754012871c12a78bb M	src/test/java/ken/kata/techtest/parser/BerlinClockParserTest.java
+:100644 100755 45be640ebf0149b6ec1fa69278de32de23a39842 45be640ebf0149b6ec1fa69278de32de23a39842 M	src/test/java/ken/kata/techtest/utils/Exceptions.java
+:100644 100755 33a38645b113e84a786a47390650ccb669701f19 33a38645b113e84a786a47390650ccb669701f19 M	src/test/java/ken/kata/techtest/utils/TestHelper.java

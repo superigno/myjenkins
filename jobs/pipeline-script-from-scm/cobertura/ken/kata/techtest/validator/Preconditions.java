@@ -20,12 +20,12 @@
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='5'/>5</td>
-<td class="hits">217</td>
+<td class="hits">216</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!condition)&nbsp;throw&nbsp;new&nbsp;IllegalArgumentException(message);</td>
 </tr>
 <tr class="coverFull">
 <td class="line"><a name='6'/>6</td>
-<td class="hits">215</td>
+<td class="hits">214</td>
 <td class="code">&nbsp;&nbsp;&nbsp;&nbsp;}</td>
 </tr>
 <tr class="noCover">
