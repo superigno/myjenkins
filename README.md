@@ -17,8 +17,13 @@
 `docker run -p <sonar_port>:9000 --rm --name mysonar sonarqube`  
 
 Or download and run sonarqube from another server and start
-
-6. Run myjenkins image to create a container:  
+6. a Run myjenkins image to create a container:  
 `docker run -p 8080:8080  -v $(pwd)/downloads:/var/jenkins_home/downloads -v $(pwd)/jobs:/var/jenkins_home/jobs/ -v $(pwd)/m2deps:/var/jenkins_home/.m2/repository/ --rm --name myjenkins -e SONARQUBE_HOST=http://<sonar_ip_address>:<sonar_port> myjenkins:latest`
+
+   b. Run using docker-compose (using docker-compose.yml):
+    - Rebuild image using `docker-compose build -no-cache`
+   - Run using `docker-compose up`
+
+
 
 Reference: https://dzone.com/articles/dockerizing-jenkins-2-setup-and-using-it-along-wit
